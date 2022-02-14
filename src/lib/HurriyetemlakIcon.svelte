@@ -1,1 +1,1 @@
-<script>export let className="h-6 w-6"; export let viewBox="0 0 24 24";</script><svg role="img" {viewBox} xmlns="http://www.w3.org/2000/svg"><title>Hurriyetemlak</title><path d="M24 16.085L11.994 4.091 0 16.097l3.817 3.812 8.182-8.189 8.189 8.182z"/></svg>
+<script>export let className="h-6 w-6"; export let viewBox="0 0 24 24";</script><svg role="img" {viewBox} class={className} xmlns="http://www.w3.org/2000/svg"><title>Hurriyetemlak</title><path d="M24 16.085L11.994 4.091 0 16.097l3.817 3.812 8.182-8.189 8.189 8.182z"/></svg>

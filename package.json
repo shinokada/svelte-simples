@@ -1,6 +1,15 @@
 {
-  "name": "svelte-simpleicons",
-  "version": "0.0.1",
+  "name": "@codewithshin/svelte-simpleicons",
+  "version": "0.2.0",
+  "description": "Svelte + TailwindCSS + Simple-icons Components",
+  "author": {
+    "name": "Shinichi Okada",
+    "email": "connect@codewithshin.com",
+    "url": "https://blog.codewithshin.com"
+  },
+  "bugs": "https://github.com/shinokada/svelte-simpleicons/issues",
+  "homepage": "https://github.com/shinokada/svelte-simpleicons",
+  "license": "MIT",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -10,7 +19,24 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
-    "svelte": "^3.44.0"
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "postcss-load-config": "^3.1.1",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.10.3",
+    "svelte2tsx": "^0.5.3",
+    "tailwindcss": "^3.0.12"
   },
-  "type": "module"
+  "type": "module",
+  "keywords": [
+    "svelte",
+    "sveltekit",
+    "tailwindcss",
+    "icons",
+    "simple-icons"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinokada/svelte-simpleicons"
+  }
 }
