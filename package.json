@@ -1,6 +1,6 @@
 {
   "name": "@codewithshin/svelte-simpleicons",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Svelte + TailwindCSS + Simple-icons Components",
   "author": {
     "name": "Shinichi Okada",
