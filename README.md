@@ -27,3 +27,7 @@ npm i -D @codewithshin/svelte-simpleicons
 | className | h-6 w-6   |
 | viewBox   | 0 0 24 24 |
 
+## Limitations
+
+You can change colors.
+If you want to change the color, try [svelte-heroicons](https://github.com/shinokada/svelte-heroicons)
