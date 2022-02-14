@@ -1,0 +1,1 @@
+<script>export let className="h-6 w-6"; export let viewBox="0 0 24 24";</script><svg role="img" {viewBox} xmlns="http://www.w3.org/2000/svg"><title>del.icio.us</title><path d="M12 12H0v12h12V12zM24 0H12v12h12V0z"/></svg>
