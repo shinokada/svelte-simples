@@ -1,1 +1,1 @@
-<script>export let className="h-6 w-6"; export let viewBox="0 0 24 24";</script><svg role="img" {viewBox} class={className} xmlns="http://www.w3.org/2000/svg"><title>PeerTube</title><path d="M12 6.545v10.91L20.727 12M3.273 12v12L12 17.455M3.273 0v12L12 6.545"/></svg>
+<script>export let className="h-6 w-6"; export let viewBox="0 0 24 24"; export let fill="#000000"</script><svg role="img" {viewBox} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg"><title>PeerTube</title><path d="M12 6.545v10.91L20.727 12M3.273 12v12L12 17.455M3.273 0v12L12 6.545"/></svg>

@@ -289,6 +289,7 @@ import JordanIcon from './JordanIcon.svelte'
 import RubysinatraIcon from './RubysinatraIcon.svelte'
 import ReasonIcon from './ReasonIcon.svelte'
 import ApachecassandraIcon from './ApachecassandraIcon.svelte'
+import RepublicofgamersIcon from './RepublicofgamersIcon.svelte'
 import KdeIcon from './KdeIcon.svelte'
 import SteinbergIcon from './SteinbergIcon.svelte'
 import GodotengineIcon from './GodotengineIcon.svelte'
@@ -378,6 +379,7 @@ import BitlyIcon from './BitlyIcon.svelte'
 import AffinitypublisherIcon from './AffinitypublisherIcon.svelte'
 import EightsleepIcon from './EightsleepIcon.svelte'
 import CryengineIcon from './CryengineIcon.svelte'
+import TemporalIcon from './TemporalIcon.svelte'
 import SparkfunIcon from './SparkfunIcon.svelte'
 import ClickupIcon from './ClickupIcon.svelte'
 import ChakrauiIcon from './ChakrauiIcon.svelte'
@@ -860,6 +862,7 @@ import OvhIcon from './OvhIcon.svelte'
 import DattoIcon from './DattoIcon.svelte'
 import FortinetIcon from './FortinetIcon.svelte'
 import AdguardIcon from './AdguardIcon.svelte'
+import LeaderpriceIcon from './LeaderpriceIcon.svelte'
 import CloudcannonIcon from './CloudcannonIcon.svelte'
 import LaunchpadIcon from './LaunchpadIcon.svelte'
 import PagerdutyIcon from './PagerdutyIcon.svelte'
@@ -880,6 +883,7 @@ import WebassemblyIcon from './WebassemblyIcon.svelte'
 import FontawesomeIcon from './FontawesomeIcon.svelte'
 import GnusocialIcon from './GnusocialIcon.svelte'
 import GeneralelectricIcon from './GeneralelectricIcon.svelte'
+import RayIcon from './RayIcon.svelte'
 import StravaIcon from './StravaIcon.svelte'
 import GatlingIcon from './GatlingIcon.svelte'
 import PiwigoIcon from './PiwigoIcon.svelte'
@@ -1425,6 +1429,7 @@ import NintendogamecubeIcon from './NintendogamecubeIcon.svelte'
 import UpcloudIcon from './UpcloudIcon.svelte'
 import NowIcon from './NowIcon.svelte'
 import XcodeIcon from './XcodeIcon.svelte'
+import PicardsurgelesIcon from './PicardsurgelesIcon.svelte'
 import PaytmIcon from './PaytmIcon.svelte'
 import DrupalIcon from './DrupalIcon.svelte'
 import IfoodIcon from './IfoodIcon.svelte'
@@ -1854,9 +1859,11 @@ import PlanetIcon from './PlanetIcon.svelte'
 import CodereviewIcon from './CodereviewIcon.svelte'
 import LoopIcon from './LoopIcon.svelte'
 import CmakeIcon from './CmakeIcon.svelte'
+import CoraIcon from './CoraIcon.svelte'
 import SchneiderelectricIcon from './SchneiderelectricIcon.svelte'
 import BilibiliIcon from './BilibiliIcon.svelte'
 import MlbIcon from './MlbIcon.svelte'
+import SocialbladeIcon from './SocialbladeIcon.svelte'
 import AirchinaIcon from './AirchinaIcon.svelte'
 import AffinityIcon from './AffinityIcon.svelte'
 import ShieldsdotioIcon from './ShieldsdotioIcon.svelte'
@@ -2455,6 +2462,7 @@ JordanIcon,
 RubysinatraIcon,
 ReasonIcon,
 ApachecassandraIcon,
+RepublicofgamersIcon,
 KdeIcon,
 SteinbergIcon,
 GodotengineIcon,
@@ -2544,6 +2552,7 @@ BitlyIcon,
 AffinitypublisherIcon,
 EightsleepIcon,
 CryengineIcon,
+TemporalIcon,
 SparkfunIcon,
 ClickupIcon,
 ChakrauiIcon,
@@ -3026,6 +3035,7 @@ OvhIcon,
 DattoIcon,
 FortinetIcon,
 AdguardIcon,
+LeaderpriceIcon,
 CloudcannonIcon,
 LaunchpadIcon,
 PagerdutyIcon,
@@ -3046,6 +3056,7 @@ WebassemblyIcon,
 FontawesomeIcon,
 GnusocialIcon,
 GeneralelectricIcon,
+RayIcon,
 StravaIcon,
 GatlingIcon,
 PiwigoIcon,
@@ -3591,6 +3602,7 @@ NintendogamecubeIcon,
 UpcloudIcon,
 NowIcon,
 XcodeIcon,
+PicardsurgelesIcon,
 PaytmIcon,
 DrupalIcon,
 IfoodIcon,
@@ -4020,9 +4032,11 @@ PlanetIcon,
 CodereviewIcon,
 LoopIcon,
 CmakeIcon,
+CoraIcon,
 SchneiderelectricIcon,
 BilibiliIcon,
 MlbIcon,
+SocialbladeIcon,
 AirchinaIcon,
 AffinityIcon,
 ShieldsdotioIcon,
