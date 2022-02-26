@@ -1,5 +1,7 @@
 # Svelte-simpleicons
 
+Svelte-simpleicons is a monochrome SVG icons. You can change the color to your choice.
+
 ## Requirement
 
 TailwindCSS
@@ -17,7 +19,7 @@ npm i -D @codewithshin/svelte-simpleicons
   import { FacebookIcon } from '@codewithshin/svelte-simpleicons'
 </script>
 
-<FacebookIcon />
+<FacebookIcon className="h-8 w-8 w-full" fill="#4287f5" />
 ```
 
 ## Props
@@ -26,8 +28,8 @@ npm i -D @codewithshin/svelte-simpleicons
 | --------- | --------- |
 | className | h-6 w-6   |
 | viewBox   | 0 0 24 24 |
+| fill      | #000000   |
 
 ## Limitations
 
-You can change colors.
-If you want to change the color, try [svelte-heroicons](https://github.com/shinokada/svelte-heroicons)
+If you want to general icons, try [svelte-heroicons](https://github.com/shinokada/svelte-heroicons)
