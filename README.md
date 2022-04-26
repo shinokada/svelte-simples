@@ -1,8 +1,6 @@
 # Svelte-simples
 
-Svelte-Simpleioncs moved to [Svelte-Simples](https://www.npmjs.com/package/svelte-simples)
-
-Svelte-simples is monochrome SVG Simple icons for Svelte. You can change the color to your choice.
+Svelte-simples is monochrome SVG Simple icons for Svelte. You can change the size and color to your choice.
 
 ## Installation
 
@@ -44,6 +42,12 @@ Use the `color` prop with a HEX color code to change the icon color.
 <Facebook color="#ff0000"/>
 ```
 
-## Limitations
+## Icon names
 
-If you want to general icons, try [svelte-heros](https://github.com/package/svelte-heros)
+[Icon names](https://github.com/shinokada/svelte-simples/blob/main/icon-names.md)
+
+## Other icon families
+
+- [Svelte-heros](https://www.npmjs.com/package/svelte-heros) is a set of Heroicons for Svelte.
+- [Svelte-lucide](https://www.npmjs.com/package/svelte-lucide) is a set of Lucide icons for Svelte.
+- [Svelte-simples](https://www.npmjs.com/package/svelte-simples) is a set of Simple-icons for Svelte.
