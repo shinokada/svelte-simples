@@ -16,7 +16,7 @@ npm i -D @codewithshin/svelte-simpleicons
 
 ```html
 <script>
-  import { FacebookIcon } from '@codewithshin/svelte-simpleicons'
+  import { FacebookIcon } from 'svelte-simple-icons'
 </script>
 
 <FacebookIcon className="h-8 w-8 w-full" fill="#4287f5" />

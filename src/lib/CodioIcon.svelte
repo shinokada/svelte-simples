@@ -1,1 +1,0 @@
-<script>export let className="h-6 w-6"; export let viewBox="0 0 24 24"; export let fill="#000000"</script><svg role="img" {viewBox} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg"><title>Codio</title><path d="M11.997 24L1.605 17.997v-12L12 0l10.396 5.997L16.5 9.402 12 6.8 7.496 9.4v5.2l4.502 2.6 4.5-2.6 5.895 3.397L12.003 24h-.006z"/></svg>

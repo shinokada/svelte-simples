@@ -1,1 +1,0 @@
-<script>export let className="h-6 w-6"; export let viewBox="0 0 24 24"; export let fill="#000000"</script><svg role="img" {viewBox} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg"><title>GIPHY</title><path d="M2.666 0v24h18.668V8.666l-2.668 2.668v10H5.334V2.668H10L12.666 0zm10.668 0v8h8V5.334h-2.668V2.668H16V0"/></svg>

@@ -1,0 +1,1 @@
+<script>export let size="24"; export let color="#1877F2"</script><svg role="img" viewBox="0 0 24 24" width={size} height={size} fill={color}  class={$$props.class} xmlns="http://www.w3.org/2000/svg"><title>Framer</title><path d="M4 0h16v8h-8zM4 8h8l8 8H4zM4 16h8v8z"/></svg>

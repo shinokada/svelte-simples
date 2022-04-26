@@ -1,0 +1,1 @@
+<script>export let size="24"; export let color="#1877F2"</script><svg role="img" viewBox="0 0 24 24" width={size} height={size} fill={color}  class={$$props.class} xmlns="http://www.w3.org/2000/svg"><title>Dynamics 365</title><path d="M4.59 7.41l4.94 3.54L4.59 24zm0-7.41v6.36l9.53 5.29 4.59-3.52zm0 24l14.82-8.47v-6.7Z"/></svg>

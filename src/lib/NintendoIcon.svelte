@@ -1,1 +1,0 @@
-<script>export let className="h-6 w-6"; export let viewBox="0 0 24 24"; export let fill="#000000"</script><svg role="img" {viewBox} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg"><title>Nintendo</title><path d="M0 .6h7.1l9.85 15.9V.6H24v22.8h-7.04L7.06 7.5v15.9H0V.6"/></svg>

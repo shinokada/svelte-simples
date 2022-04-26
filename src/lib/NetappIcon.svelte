@@ -1,1 +1,0 @@
-<script>export let className="h-6 w-6"; export let viewBox="0 0 24 24"; export let fill="#000000"</script><svg role="img" {viewBox} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg"><title>NetApp</title><path d="M0 2v20h9.33V10h5.34v12H24V2Z"/></svg>

@@ -1,1 +1,0 @@
-<script>export let className="h-6 w-6"; export let viewBox="0 0 24 24"; export let fill="#000000"</script><svg role="img" {viewBox} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg"><title>Minutemailer</title><path d="M17.187 19.181L24 4.755 0 12.386l9.196 1.963.043 4.896 2.759-2.617-2.147-2.076 7.336 4.63z"/></svg>

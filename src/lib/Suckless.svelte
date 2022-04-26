@@ -1,0 +1,1 @@
+<script>export let size="24"; export let color="#1877F2"</script><svg role="img" viewBox="0 0 24 24" width={size} height={size} fill={color}  class={$$props.class} xmlns="http://www.w3.org/2000/svg"><title>suckless</title><path d="M0 4h24v4H4v2h20v10H0v-4h20v-2H0z"/></svg>
