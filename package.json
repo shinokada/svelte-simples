@@ -1,5 +1,5 @@
 {
-  "name": "@codewithshin/svelte-simpleicons",
+  "name": "svelte-simpleicons",
   "version": "0.2.2",
   "description": "Svelte + TailwindCSS + Simple-icons Components",
   "author": {
