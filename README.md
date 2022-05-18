@@ -42,6 +42,20 @@ Use the `color` prop with a HEX color code to change the icon color.
 <Facebook color="#ff0000"/>
 ```
 
+## CSS framworks suport
+
+Use the class prop to change size, colors and add additional css.
+
+Tailwind CSS example:
+
+```
+<Facebook class="h-24 w-24 text-blue-700 mr-4" />
+```
+
+Bootstrap examples:
+
+<Facebook class="position-absolute top-0 px-1" />
+
 ## Icon names
 
 [Icon names](https://github.com/shinokada/svelte-simples/blob/main/icon-names.md)
