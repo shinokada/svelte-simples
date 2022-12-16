@@ -1,6 +1,17 @@
-# Svelte-simples
+<h1 align="center">Svelte-Simples</h1>
 
-Svelte-simples is monochrome SVG Simple icons for Svelte. You can change the size and color to your choice.
+<p align="center">
+<a href="https://shinokada.github.io/svelte-simples/">Svelte-Simples</a>
+</p>
+
+<p align="center">
+<a href="https://www.npmjs.com/package/svelte-simples" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-simples" alt="npm"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-simples" alt="License"></a>
+<a href="https://www.npmjs.com/package/svelte-simples" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-simples.svg" alt="npm"></a>
+</p>
+
+SVG Simple icons for Svelte. You can change the size and color to your choice.
 
 ## Installation
 
@@ -63,10 +74,3 @@ Bootstrap examples:
 ## Other icons
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
-- [Svelte-Ionicons](https://www.npmjs.com/package/svelte-ionicons)
-- [Svelte-Awesome-Icons](https://www.npmjs.com/package/svelte-awesome-icons)
-- [Svelte-heros](https://github.com/shinokada/svelte-heros)
-- [Svelte-lucide](https://github.com/shinokada/svelte-lucide)
-- [Svelte-flags](https://www.npmjs.com/package/svelte-flags)
-- [Svlete-simples](https://github.com/shinokada/svelte-simples)
-- [Svelte-feathers](https://github.com/shinokada/svelte-feathers)
