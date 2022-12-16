@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.4](https://github.com/shinokada/svelte-simples/compare/v0.3.3...v0.3.4) (2022-12-16)
+
+
+### Features
+
+* add docsify ([e3c6d9c](https://github.com/shinokada/svelte-simples/commit/e3c6d9cab6ec880a5772b9d1fd3626c028d773a1))
+
 ### [0.3.3](https://github.com/shinokada/svelte-simples/compare/v0.3.2...v0.3.3) (2022-05-18)
 
 ### [0.3.2](https://github.com/shinokada/svelte-simples/compare/v0.3.1...v0.3.2) (2022-05-18)
