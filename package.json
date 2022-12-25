@@ -8,7 +8,7 @@
 		"url": "https://blog.codewithshin.com"
 	},
 	"bugs": "https://github.com/shinokada/svelte-simples/issues",
-	"homepage": "https://shinokada.github.io/svelte-simples",
+	"homepage": "https://svelte-simples.codewithshin.com",
 	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",

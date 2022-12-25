@@ -1,7 +1,7 @@
 <h1 align="center">Svelte-Simples</h1>
 
 <p align="center">
-<a href="https://shinokada.github.io/svelte-simples/">Svelte-Simples</a>
+<a href="https://svelte-simples.codewithshin.com/">Svelte-Simples</a>
 </p>
 
 <p align="center">
