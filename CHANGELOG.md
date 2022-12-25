@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.5](https://github.com/shinokada/svelte-simples/compare/v0.3.4...v0.3.5) (2022-12-25)
+
+
+### Bug Fixes
+
+* url updates ([7a578f9](https://github.com/shinokada/svelte-simples/commit/7a578f9defc3664a18dadbd7745d25d98cba8bc0))
+
 ### [0.3.4](https://github.com/shinokada/svelte-simples/compare/v0.3.3...v0.3.4) (2022-12-16)
 
 
