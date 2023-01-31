@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.6](https://github.com/shinokada/svelte-simples/compare/v0.3.5...v0.3.6) (2023-01-31)
+
+
+### Features
+
+* add pwa ([de6ca4e](https://github.com/shinokada/svelte-simples/commit/de6ca4e6fd8dbdb56dd4cf3408778b3ebfa658a9))
+
 ### [0.3.5](https://github.com/shinokada/svelte-simples/compare/v0.3.4...v0.3.5) (2022-12-25)
 
 
