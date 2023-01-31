@@ -15,7 +15,7 @@
 SVG Simple icons for Svelte. You can change the size and color to your choice.
 
 <p align="center">
-<img src="/static/images/simples-optimized.png" />
+<img width="650" src="/static/images/simples-650-1050.png" />
 </p>
 
 ## Installation
@@ -72,9 +72,13 @@ Bootstrap examples:
 
 <Facebook class="position-absolute top-0 px-1" />
 
+## Icon images
+
+[Icon images](/icon-images.md)
+
 ## Icon names
 
-[Icon names](https://github.com/shinokada/svelte-simples/blob/main/icon-names.md)
+[Icon names](/icon-names.md)
 
 ## Other icons
 
