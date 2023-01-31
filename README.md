@@ -15,7 +15,7 @@
 SVG Simple icons for Svelte. You can change the size and color to your choice.
 
 <p align="center">
-<img width="650" src="/static/images/simples-650-1050.png" />
+<img width="650" src="/static/images/simples-650-1050-optimized.png" />
 </p>
 
 ## Installation
