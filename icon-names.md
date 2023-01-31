@@ -2229,4 +2229,3 @@
 - Zulip.svelte
 - Zwave.svelte
 - Zyte.svelte
-- index.js
