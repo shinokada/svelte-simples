@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.7](https://github.com/shinokada/svelte-simples/compare/v0.3.6...v0.3.7) (2023-01-31)
+
+
+### Features
+
+* add icon images page ([135fb5e](https://github.com/shinokada/svelte-simples/commit/135fb5e9c0434d1911f7aad60dabc5bd2ce40a38))
+
 ### [0.3.6](https://github.com/shinokada/svelte-simples/compare/v0.3.5...v0.3.6) (2023-01-31)
 
 
