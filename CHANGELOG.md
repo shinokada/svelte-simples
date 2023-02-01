@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.8](https://github.com/shinokada/svelte-simples/compare/v0.3.7...v0.3.8) (2023-02-01)
+
+
+### Bug Fixes
+
+* add optimized image ([74d81ea](https://github.com/shinokada/svelte-simples/commit/74d81ea70bd7c2f4ee6a5fb37e0ba28e315e49c2))
+* badges target, height, and add links to crossOriginLinks ([b225c69](https://github.com/shinokada/svelte-simples/commit/b225c691b64afc54dc59c1e9ab79e40c51782158))
+* favicon link ([bd9e318](https://github.com/shinokada/svelte-simples/commit/bd9e318f9c847315b15ebbcf238afa6a18e140f7))
+
 ### [0.3.7](https://github.com/shinokada/svelte-simples/compare/v0.3.6...v0.3.7) (2023-01-31)
 
 
