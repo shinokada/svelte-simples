@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/shinokada/svelte-simples/compare/v0.3.8...v0.4.0) (2023-02-03)
+
+
+### Bug Fixes
+
+* update index.js ([7241754](https://github.com/shinokada/svelte-simples/commit/72417541f5fb0695d21dac055358f0f510a451ea))
+
 ### [0.3.8](https://github.com/shinokada/svelte-simples/compare/v0.3.7...v0.3.8) (2023-02-01)
 
 
