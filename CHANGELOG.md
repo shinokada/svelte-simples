@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.1](https://github.com/shinokada/svelte-simples/compare/v0.4.1...v0.5.1) (2023-02-22)
+
+
+### Features
+
+* add microsoft webmaster tools meta tag ([89cc6c8](https://github.com/shinokada/svelte-simples/commit/89cc6c8c9cd780d30118a533af4148b6b1eb0ba8))
+* new svelte packaging system ([2e81ebb](https://github.com/shinokada/svelte-simples/commit/2e81ebb72e1d6e95767a61c4a788dc94673e3cd1))
+
+
+### Bug Fixes
+
+* add back to home ([792e0b5](https://github.com/shinokada/svelte-simples/commit/792e0b5c260c37f0b8a17fd376d55d3bdff79717))
+
 ### [0.4.1](https://github.com/shinokada/svelte-simples/compare/v0.4.0...v0.4.1) (2023-02-03)
 
 ## [0.4.0](https://github.com/shinokada/svelte-simples/compare/v0.3.8...v0.4.0) (2023-02-03)
