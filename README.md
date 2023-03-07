@@ -26,7 +26,7 @@ SVG Simple icons for Svelte. You can change the size and color to your choice.
 npm i -D svelte-simples
 ```
 
-## Import
+## Usage
 
 ```html
 <script>
@@ -34,6 +34,39 @@ npm i -D svelte-simples
 </script>
 
 <Facebook />
+```
+
+
+## Faster compiling
+
+For faster compilation, you can import the icon directly.
+
+```html
+<script>
+  import Facebook from 'svelte-simples/Facebook.svelte';
+</script>
+
+<Facebook />
+```
+
+If you are TypeScript user, **this require `"typescript": "^5.0.0"`.**
+
+As of March 2023, the `typescript@beta` version is now available:
+
+```sh
+pnpm i -D typescript@beta
+```
+
+To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
+
+```json
+{
+  //...
+  "compilerOptions": {
+    // ...
+    "moduleResolution": "nodenext"
+  }
+}
 ```
 
 ## Props
@@ -66,13 +99,78 @@ Use the class prop to change size, colors and add additional css.
 
 Tailwind CSS example:
 
-```
+```html
 <Facebook class="h-24 w-24 text-blue-700 mr-4" />
 ```
 
 Bootstrap examples:
 
+```html
 <Facebook class="position-absolute top-0 px-1" />
+```
+
+## Unfocusable icon
+
+If you want to make an icon unfocusable, add `tabindex="-1"`.
+
+```html
+<Facebook tabindex="-1" />
+```
+
+## Passing down other attributes
+
+You can pass other attibutes as well.
+
+```html
+<Facebook tabindex="0" />
+```
+
+## Using svelte:component
+
+```html
+<script>
+  import { Facebook } from 'svelte-simples';
+</script>
+
+<svelte:component this="{Facebook}" />
+```
+
+## Using onMount
+
+```html
+<script>
+  import { Facebook } from 'svelte-simples';
+  import { onMount } from 'svelte';
+  const props = {
+    size: '50',
+    color: '#ff0000'
+  };
+  onMount(() => {
+    const icon = new Facebook({ target: document.body, props });
+  });
+</script>
+```
+
+## Import all
+
+Use `import * as Icon from 'svelte-simples`.
+
+```html
+<script>
+  import * as Icon from 'svelte-simples';
+</script>
+
+<Icon.Facebook />
+
+<h1>Size</h1>
+<Icon.Facebook size="30" />
+
+<h1>CSS HEX color</h1>
+<Icon.Facebook color="#c61515" size="40" />
+
+<h1>Tailwind CSS</h1>
+<Icon.Facebook class="text-blue-500" />
+```
 
 ## Icon images
 
