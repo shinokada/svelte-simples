@@ -1,6 +1,6 @@
 {
   "name": "svelte-simples",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "Svelte Simple-icons Components",
   "author": {
     "name": "Shinichi Okada",
@@ -243,6 +243,10 @@
       "types": "./dist/Aew.svelte.d.ts",
       "svelte": "./dist/Aew.svelte"
     },
+    "./Affine.svelte": {
+      "types": "./dist/Affine.svelte.d.ts",
+      "svelte": "./dist/Affine.svelte"
+    },
     "./Affinity.svelte": {
       "types": "./dist/Affinity.svelte.d.ts",
       "svelte": "./dist/Affinity.svelte"
@@ -330,6 +334,10 @@
     "./Ajv.svelte": {
       "types": "./dist/Ajv.svelte.d.ts",
       "svelte": "./dist/Ajv.svelte"
+    },
+    "./Akamai.svelte": {
+      "types": "./dist/Akamai.svelte.d.ts",
+      "svelte": "./dist/Akamai.svelte"
     },
     "./Alacritty.svelte": {
       "types": "./dist/Alacritty.svelte.d.ts",
@@ -762,6 +770,10 @@
     "./Arangodb.svelte": {
       "types": "./dist/Arangodb.svelte.d.ts",
       "svelte": "./dist/Arangodb.svelte"
+    },
+    "./Arcgis.svelte": {
+      "types": "./dist/Arcgis.svelte.d.ts",
+      "svelte": "./dist/Arcgis.svelte"
     },
     "./Archicad.svelte": {
       "types": "./dist/Archicad.svelte.d.ts",
@@ -1451,6 +1463,10 @@
       "types": "./dist/Capacitor.svelte.d.ts",
       "svelte": "./dist/Capacitor.svelte"
     },
+    "./Cardano.svelte": {
+      "types": "./dist/Cardano.svelte.d.ts",
+      "svelte": "./dist/Cardano.svelte"
+    },
     "./Carrefour.svelte": {
       "types": "./dist/Carrefour.svelte.d.ts",
       "svelte": "./dist/Carrefour.svelte"
@@ -1599,6 +1615,10 @@
       "types": "./dist/Circleci.svelte.d.ts",
       "svelte": "./dist/Circleci.svelte"
     },
+    "./Circuitverse.svelte": {
+      "types": "./dist/Circuitverse.svelte.d.ts",
+      "svelte": "./dist/Circuitverse.svelte"
+    },
     "./Cirrusci.svelte": {
       "types": "./dist/Cirrusci.svelte.d.ts",
       "svelte": "./dist/Cirrusci.svelte"
@@ -1710,6 +1730,10 @@
     "./Cnn.svelte": {
       "types": "./dist/Cnn.svelte.d.ts",
       "svelte": "./dist/Cnn.svelte"
+    },
+    "./Cocacola.svelte": {
+      "types": "./dist/Cocacola.svelte.d.ts",
+      "svelte": "./dist/Cocacola.svelte"
     },
     "./Cockpit.svelte": {
       "types": "./dist/Cockpit.svelte.d.ts",
@@ -1906,6 +1930,10 @@
     "./Containerd.svelte": {
       "types": "./dist/Containerd.svelte.d.ts",
       "svelte": "./dist/Containerd.svelte"
+    },
+    "./Contao.svelte": {
+      "types": "./dist/Contao.svelte.d.ts",
+      "svelte": "./dist/Contao.svelte"
     },
     "./Contentful.svelte": {
       "types": "./dist/Contentful.svelte.d.ts",
@@ -2723,6 +2751,10 @@
       "types": "./dist/Espressif.svelte.d.ts",
       "svelte": "./dist/Espressif.svelte"
     },
+    "./Esri.svelte": {
+      "types": "./dist/Esri.svelte.d.ts",
+      "svelte": "./dist/Esri.svelte"
+    },
     "./Etcd.svelte": {
       "types": "./dist/Etcd.svelte.d.ts",
       "svelte": "./dist/Etcd.svelte"
@@ -3070,6 +3102,10 @@
     "./Fontbase.svelte": {
       "types": "./dist/Fontbase.svelte.d.ts",
       "svelte": "./dist/Fontbase.svelte"
+    },
+    "./Fontforge.svelte": {
+      "types": "./dist/Fontforge.svelte.d.ts",
+      "svelte": "./dist/Fontforge.svelte"
     },
     "./Foodpanda.svelte": {
       "types": "./dist/Foodpanda.svelte.d.ts",
@@ -5211,6 +5247,10 @@
       "types": "./dist/Mendeley.svelte.d.ts",
       "svelte": "./dist/Mendeley.svelte"
     },
+    "./Mercadopago.svelte": {
+      "types": "./dist/Mercadopago.svelte.d.ts",
+      "svelte": "./dist/Mercadopago.svelte"
+    },
     "./Mercedes.svelte": {
       "types": "./dist/Mercedes.svelte.d.ts",
       "svelte": "./dist/Mercedes.svelte"
@@ -5419,6 +5459,10 @@
       "types": "./dist/Mocha.svelte.d.ts",
       "svelte": "./dist/Mocha.svelte"
     },
+    "./Modin.svelte": {
+      "types": "./dist/Modin.svelte.d.ts",
+      "svelte": "./dist/Modin.svelte"
+    },
     "./Modrinth.svelte": {
       "types": "./dist/Modrinth.svelte.d.ts",
       "svelte": "./dist/Modrinth.svelte"
@@ -5450,6 +5494,10 @@
     "./Mongodb.svelte": {
       "types": "./dist/Mongodb.svelte.d.ts",
       "svelte": "./dist/Mongodb.svelte"
+    },
+    "./Mongoose.svelte": {
+      "types": "./dist/Mongoose.svelte.d.ts",
+      "svelte": "./dist/Mongoose.svelte"
     },
     "./Monica.svelte": {
       "types": "./dist/Monica.svelte.d.ts",
@@ -5759,6 +5807,10 @@
       "types": "./dist/Nordvpn.svelte.d.ts",
       "svelte": "./dist/Nordvpn.svelte"
     },
+    "./Normalizedotcss.svelte": {
+      "types": "./dist/Normalizedotcss.svelte.d.ts",
+      "svelte": "./dist/Normalizedotcss.svelte"
+    },
     "./Norwegian.svelte": {
       "types": "./dist/Norwegian.svelte.d.ts",
       "svelte": "./dist/Norwegian.svelte"
@@ -5778,6 +5830,10 @@
     "./Nounproject.svelte": {
       "types": "./dist/Nounproject.svelte.d.ts",
       "svelte": "./dist/Nounproject.svelte"
+    },
+    "./Novu.svelte": {
+      "types": "./dist/Novu.svelte.d.ts",
+      "svelte": "./dist/Novu.svelte"
     },
     "./Now.svelte": {
       "types": "./dist/Now.svelte.d.ts",
@@ -6083,6 +6139,10 @@
       "types": "./dist/Osano.svelte.d.ts",
       "svelte": "./dist/Osano.svelte"
     },
+    "./Osgeo.svelte": {
+      "types": "./dist/Osgeo.svelte.d.ts",
+      "svelte": "./dist/Osgeo.svelte"
+    },
     "./Oshkosh.svelte": {
       "types": "./dist/Oshkosh.svelte.d.ts",
       "svelte": "./dist/Oshkosh.svelte"
@@ -6134,6 +6194,10 @@
     "./Packer.svelte": {
       "types": "./dist/Packer.svelte.d.ts",
       "svelte": "./dist/Packer.svelte"
+    },
+    "./Paddlepaddle.svelte": {
+      "types": "./dist/Paddlepaddle.svelte.d.ts",
+      "svelte": "./dist/Paddlepaddle.svelte"
     },
     "./Paddypower.svelte": {
       "types": "./dist/Paddypower.svelte.d.ts",
@@ -6503,6 +6567,10 @@
       "types": "./dist/Podman.svelte.d.ts",
       "svelte": "./dist/Podman.svelte"
     },
+    "./Poe.svelte": {
+      "types": "./dist/Poe.svelte.d.ts",
+      "svelte": "./dist/Poe.svelte"
+    },
     "./Poetry.svelte": {
       "types": "./dist/Poetry.svelte.d.ts",
       "svelte": "./dist/Poetry.svelte"
@@ -6638,6 +6706,10 @@
     "./Primevideo.svelte": {
       "types": "./dist/Primevideo.svelte.d.ts",
       "svelte": "./dist/Primevideo.svelte"
+    },
+    "./Printables.svelte": {
+      "types": "./dist/Printables.svelte.d.ts",
+      "svelte": "./dist/Printables.svelte"
     },
     "./Prisma.svelte": {
       "types": "./dist/Prisma.svelte.d.ts",
@@ -7063,6 +7135,10 @@
       "types": "./dist/Redmine.svelte.d.ts",
       "svelte": "./dist/Redmine.svelte"
     },
+    "./Redox.svelte": {
+      "types": "./dist/Redox.svelte.d.ts",
+      "svelte": "./dist/Redox.svelte"
+    },
     "./Redux.svelte": {
       "types": "./dist/Redux.svelte.d.ts",
       "svelte": "./dist/Redux.svelte"
@@ -7319,6 +7395,10 @@
       "types": "./dist/Rubysinatra.svelte.d.ts",
       "svelte": "./dist/Rubysinatra.svelte"
     },
+    "./Ruff.svelte": {
+      "types": "./dist/Ruff.svelte.d.ts",
+      "svelte": "./dist/Ruff.svelte"
+    },
     "./Runkeeper.svelte": {
       "types": "./dist/Runkeeper.svelte.d.ts",
       "svelte": "./dist/Runkeeper.svelte"
@@ -7522,6 +7602,10 @@
     "./Sencha.svelte": {
       "types": "./dist/Sencha.svelte.d.ts",
       "svelte": "./dist/Sencha.svelte"
+    },
+    "./Sendinblue.svelte": {
+      "types": "./dist/Sendinblue.svelte.d.ts",
+      "svelte": "./dist/Sendinblue.svelte"
     },
     "./Sennheiser.svelte": {
       "types": "./dist/Sennheiser.svelte.d.ts",
@@ -8011,6 +8095,10 @@
       "types": "./dist/Stackexchange.svelte.d.ts",
       "svelte": "./dist/Stackexchange.svelte"
     },
+    "./Stackhawk.svelte": {
+      "types": "./dist/Stackhawk.svelte.d.ts",
+      "svelte": "./dist/Stackhawk.svelte"
+    },
     "./Stackoverflow.svelte": {
       "types": "./dist/Stackoverflow.svelte.d.ts",
       "svelte": "./dist/Stackoverflow.svelte"
@@ -8266,6 +8354,10 @@
     "./Symantec.svelte": {
       "types": "./dist/Symantec.svelte.d.ts",
       "svelte": "./dist/Symantec.svelte"
+    },
+    "./Symbolab.svelte": {
+      "types": "./dist/Symbolab.svelte.d.ts",
+      "svelte": "./dist/Symbolab.svelte"
     },
     "./Symfony.svelte": {
       "types": "./dist/Symfony.svelte.d.ts",
@@ -9591,6 +9683,10 @@
       "types": "./dist/Yamahamotorcorporation.svelte.d.ts",
       "svelte": "./dist/Yamahamotorcorporation.svelte"
     },
+    "./Yaml.svelte": {
+      "types": "./dist/Yaml.svelte.d.ts",
+      "svelte": "./dist/Yaml.svelte"
+    },
     "./Yammer.svelte": {
       "types": "./dist/Yammer.svelte.d.ts",
       "svelte": "./dist/Yammer.svelte"
@@ -9730,6 +9826,10 @@
     "./Zigbee.svelte": {
       "types": "./dist/Zigbee.svelte.d.ts",
       "svelte": "./dist/Zigbee.svelte"
+    },
+    "./Zilch.svelte": {
+      "types": "./dist/Zilch.svelte.d.ts",
+      "svelte": "./dist/Zilch.svelte"
     },
     "./Zillow.svelte": {
       "types": "./dist/Zillow.svelte.d.ts",
