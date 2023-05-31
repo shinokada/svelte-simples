@@ -4,81 +4,70 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.7.1](https://github.com/shinokada/svelte-simples/compare/v0.6.1...v0.7.1) (2023-05-12)
 
-
 ### Features
 
-* add events ([b58a21c](https://github.com/shinokada/svelte-simples/commit/b58a21c49900f0b2cd7eefa78ac053c64db3f8a3))
-
+- add events ([b58a21c](https://github.com/shinokada/svelte-simples/commit/b58a21c49900f0b2cd7eefa78ac053c64db3f8a3))
 
 ### Bug Fixes
 
-* package update ([06b2b28](https://github.com/shinokada/svelte-simples/commit/06b2b2838b9adbbecceae67b9e7e2178ce20e559))
+- package update ([06b2b28](https://github.com/shinokada/svelte-simples/commit/06b2b2838b9adbbecceae67b9e7e2178ce20e559))
 
 ### [0.6.1](https://github.com/shinokada/svelte-simples/compare/v0.5.1...v0.6.1) (2023-03-07)
 
-
 ### Features
 
-* add script add-exports and update README ([c0a38b0](https://github.com/shinokada/svelte-simples/commit/c0a38b09ee081b0017f854397321283825c36a12))
+- add script add-exports and update README ([c0a38b0](https://github.com/shinokada/svelte-simples/commit/c0a38b09ee081b0017f854397321283825c36a12))
 
 ### [0.5.1](https://github.com/shinokada/svelte-simples/compare/v0.4.1...v0.5.1) (2023-02-22)
 
-
 ### Features
 
-* add microsoft webmaster tools meta tag ([89cc6c8](https://github.com/shinokada/svelte-simples/commit/89cc6c8c9cd780d30118a533af4148b6b1eb0ba8))
-* new svelte packaging system ([2e81ebb](https://github.com/shinokada/svelte-simples/commit/2e81ebb72e1d6e95767a61c4a788dc94673e3cd1))
-
+- add microsoft webmaster tools meta tag ([89cc6c8](https://github.com/shinokada/svelte-simples/commit/89cc6c8c9cd780d30118a533af4148b6b1eb0ba8))
+- new svelte packaging system ([2e81ebb](https://github.com/shinokada/svelte-simples/commit/2e81ebb72e1d6e95767a61c4a788dc94673e3cd1))
 
 ### Bug Fixes
 
-* add back to home ([792e0b5](https://github.com/shinokada/svelte-simples/commit/792e0b5c260c37f0b8a17fd376d55d3bdff79717))
+- add back to home ([792e0b5](https://github.com/shinokada/svelte-simples/commit/792e0b5c260c37f0b8a17fd376d55d3bdff79717))
 
 ### [0.4.1](https://github.com/shinokada/svelte-simples/compare/v0.4.0...v0.4.1) (2023-02-03)
 
 ## [0.4.0](https://github.com/shinokada/svelte-simples/compare/v0.3.8...v0.4.0) (2023-02-03)
 
-
 ### Bug Fixes
 
-* update index.js ([7241754](https://github.com/shinokada/svelte-simples/commit/72417541f5fb0695d21dac055358f0f510a451ea))
+- update index.js ([7241754](https://github.com/shinokada/svelte-simples/commit/72417541f5fb0695d21dac055358f0f510a451ea))
 
 ### [0.3.8](https://github.com/shinokada/svelte-simples/compare/v0.3.7...v0.3.8) (2023-02-01)
 
-
 ### Bug Fixes
 
-* add optimized image ([74d81ea](https://github.com/shinokada/svelte-simples/commit/74d81ea70bd7c2f4ee6a5fb37e0ba28e315e49c2))
-* badges target, height, and add links to crossOriginLinks ([b225c69](https://github.com/shinokada/svelte-simples/commit/b225c691b64afc54dc59c1e9ab79e40c51782158))
-* favicon link ([bd9e318](https://github.com/shinokada/svelte-simples/commit/bd9e318f9c847315b15ebbcf238afa6a18e140f7))
+- add optimized image ([74d81ea](https://github.com/shinokada/svelte-simples/commit/74d81ea70bd7c2f4ee6a5fb37e0ba28e315e49c2))
+- badges target, height, and add links to crossOriginLinks ([b225c69](https://github.com/shinokada/svelte-simples/commit/b225c691b64afc54dc59c1e9ab79e40c51782158))
+- favicon link ([bd9e318](https://github.com/shinokada/svelte-simples/commit/bd9e318f9c847315b15ebbcf238afa6a18e140f7))
 
 ### [0.3.7](https://github.com/shinokada/svelte-simples/compare/v0.3.6...v0.3.7) (2023-01-31)
 
-
 ### Features
 
-* add icon images page ([135fb5e](https://github.com/shinokada/svelte-simples/commit/135fb5e9c0434d1911f7aad60dabc5bd2ce40a38))
+- add icon images page ([135fb5e](https://github.com/shinokada/svelte-simples/commit/135fb5e9c0434d1911f7aad60dabc5bd2ce40a38))
 
 ### [0.3.6](https://github.com/shinokada/svelte-simples/compare/v0.3.5...v0.3.6) (2023-01-31)
 
-
 ### Features
 
-* add pwa ([de6ca4e](https://github.com/shinokada/svelte-simples/commit/de6ca4e6fd8dbdb56dd4cf3408778b3ebfa658a9))
+- add pwa ([de6ca4e](https://github.com/shinokada/svelte-simples/commit/de6ca4e6fd8dbdb56dd4cf3408778b3ebfa658a9))
 
 ### [0.3.5](https://github.com/shinokada/svelte-simples/compare/v0.3.4...v0.3.5) (2022-12-25)
 
-
 ### Bug Fixes
 
-* url updates ([7a578f9](https://github.com/shinokada/svelte-simples/commit/7a578f9defc3664a18dadbd7745d25d98cba8bc0))
+- url updates ([7a578f9](https://github.com/shinokada/svelte-simples/commit/7a578f9defc3664a18dadbd7745d25d98cba8bc0))
 
 ### [0.3.4](https://github.com/shinokada/svelte-simples/compare/v0.3.3...v0.3.4) (2022-12-16)
 
-
 ### Features
 
-* add docsify ([e3c6d9c](https://github.com/shinokada/svelte-simples/commit/e3c6d9cab6ec880a5772b9d1fd3626c028d773a1))
+- add docsify ([e3c6d9c](https://github.com/shinokada/svelte-simples/commit/e3c6d9cab6ec880a5772b9d1fd3626c028d773a1))
 
 ### [0.3.3](https://github.com/shinokada/svelte-simples/compare/v0.3.2...v0.3.3) (2022-05-18)
 
@@ -90,7 +79,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 0.2.3 (2022-04-26)
 
-
 ### Bug Fixes
 
-* move class={55654props.class} at the end ([937784e](https://github.com/shinokada/svelte-simpleicons/commit/937784e2066271c7e65db2daade42ae0944b09a1))
+- move class={55654props.class} at the end ([937784e](https://github.com/shinokada/svelte-simpleicons/commit/937784e2066271c7e65db2daade42ae0944b09a1))

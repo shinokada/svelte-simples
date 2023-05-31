@@ -1,1 +1,43 @@
-<script>export let size="24"; export let color="#1877F2"</script><svg role="img" viewBox="0 0 24 24" width={size} height={size} fill={color}  class={$$props.class} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus xmlns="http://www.w3.org/2000/svg"><title>Lens</title><path d="M9.255 3.5H3.5v4.255l3.75 4.715ZM3.5 8.955v7.125h5.665ZM19.545 3.5H10.02L8.87 8.635Zm-.9 17H20.5v-8.4l-4.32-2.105Zm-5.79-12.95 7.645 3.72v-7.4ZM3.5 16.825V20.5h6.88l2.875-3.675zm7.83 3.675h6.545l-1.51-6.435zM0 0h24v24H0Z"/></svg>
+<script>
+  export let size = '24';
+  export let color = '#1877F2';
+</script>
+
+<svg
+  role="img"
+  viewBox="0 0 24 24"
+  width={size}
+  height={size}
+  fill={color}
+  class={$$props.class}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  xmlns="http://www.w3.org/2000/svg"
+  ><title>Lens</title><path
+    d="M9.255 3.5H3.5v4.255l3.75 4.715ZM3.5 8.955v7.125h5.665ZM19.545 3.5H10.02L8.87 8.635Zm-.9 17H20.5v-8.4l-4.32-2.105Zm-5.79-12.95 7.645 3.72v-7.4ZM3.5 16.825V20.5h6.88l2.875-3.675zm7.83 3.675h6.545l-1.51-6.435zM0 0h24v24H0Z"
+  /></svg
+>
+<!--
+@component
+[Go to Document](https://svelte-simples.codewithshin.com/)
+## Props
+@prop size = '24';
+@prop color = '#1877F2';
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->

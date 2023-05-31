@@ -16,7 +16,6 @@
 
 SVG Simple icons for Svelte. You can change the size and color to your choice.
 
-
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
 <p align="center">
@@ -33,12 +32,11 @@ npm i -D svelte-simples
 
 ```html
 <script>
-  import { Facebook } from 'svelte-simples'
+  import { Facebook } from 'svelte-simples';
 </script>
 
 <Facebook />
 ```
-
 
 ## Faster compiling
 
@@ -80,6 +78,10 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 | color | #1877F2 |
 | class | ''      |
 
+## IDE support
+
+If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, features, props, events, and an example.
+
 ## Size
 
 Use the `size` prop to change the icon size.
@@ -93,7 +95,7 @@ Use the `size` prop to change the icon size.
 Use the `color` prop with a HEX color code to change the icon color.
 
 ```html
-<Facebook color="#ff0000"/>
+<Facebook color="#ff0000" />
 ```
 
 ## CSS framworks suport
@@ -187,15 +189,15 @@ Use `import * as Icon from 'svelte-simples`.
 
 All icons have the following events:
 
-```
-on:click
-on:mouseenter
-on:mouseleave
-on:mouseover
-on:mouseout
-on:blur
-on:focus
-```
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
 
 ## Other icons
 

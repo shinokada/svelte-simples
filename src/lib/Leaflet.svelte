@@ -1,1 +1,43 @@
-<script>export let size="24"; export let color="#1877F2"</script><svg role="img" viewBox="0 0 24 24" width={size} height={size} fill={color}  class={$$props.class} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus xmlns="http://www.w3.org/2000/svg"><title>Leaflet</title><path d="M17.69 0c-.355.574-8.432 4.74-10.856 8.649-2.424 3.91-3.116 6.988-2.237 9.882.879 2.893 2.559 2.763 3.516 3.717.958.954 2.257 2.113 4.332 1.645 2.717-.613 5.335-2.426 6.638-7.508 1.302-5.082.448-9.533-.103-11.99A35.395 35.395 0 0 0 17.69 0zm-.138.858l-9.22 21.585-.574-.577Z"/></svg>
+<script>
+  export let size = '24';
+  export let color = '#1877F2';
+</script>
+
+<svg
+  role="img"
+  viewBox="0 0 24 24"
+  width={size}
+  height={size}
+  fill={color}
+  class={$$props.class}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  xmlns="http://www.w3.org/2000/svg"
+  ><title>Leaflet</title><path
+    d="M17.69 0c-.355.574-8.432 4.74-10.856 8.649-2.424 3.91-3.116 6.988-2.237 9.882.879 2.893 2.559 2.763 3.516 3.717.958.954 2.257 2.113 4.332 1.645 2.717-.613 5.335-2.426 6.638-7.508 1.302-5.082.448-9.533-.103-11.99A35.395 35.395 0 0 0 17.69 0zm-.138.858l-9.22 21.585-.574-.577Z"
+  /></svg
+>
+<!--
+@component
+[Go to Document](https://svelte-simples.codewithshin.com/)
+## Props
+@prop size = '24';
+@prop color = '#1877F2';
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->
