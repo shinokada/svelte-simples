@@ -391,10 +391,6 @@
       "types": "./dist/Alipay.svelte.d.ts",
       "svelte": "./dist/Alipay.svelte"
     },
-    "./Alitalia.svelte": {
-      "types": "./dist/Alitalia.svelte.d.ts",
-      "svelte": "./dist/Alitalia.svelte"
-    },
     "./Allegro.svelte": {
       "types": "./dist/Allegro.svelte.d.ts",
       "svelte": "./dist/Allegro.svelte"
@@ -498,6 +494,10 @@
     "./Amd.svelte": {
       "types": "./dist/Amd.svelte.d.ts",
       "svelte": "./dist/Amd.svelte"
+    },
+    "./Ameba.svelte": {
+      "types": "./dist/Ameba.svelte.d.ts",
+      "svelte": "./dist/Ameba.svelte"
     },
     "./Americanairlines.svelte": {
       "types": "./dist/Americanairlines.svelte.d.ts",
@@ -1119,6 +1119,10 @@
       "types": "./dist/Bentley.svelte.d.ts",
       "svelte": "./dist/Bentley.svelte"
     },
+    "./Bento.svelte": {
+      "types": "./dist/Bento.svelte.d.ts",
+      "svelte": "./dist/Bento.svelte"
+    },
     "./Betfair.svelte": {
       "types": "./dist/Betfair.svelte.d.ts",
       "svelte": "./dist/Betfair.svelte"
@@ -1298,6 +1302,10 @@
     "./Bose.svelte": {
       "types": "./dist/Bose.svelte.d.ts",
       "svelte": "./dist/Bose.svelte"
+    },
+    "./Botblecms.svelte": {
+      "types": "./dist/Botblecms.svelte.d.ts",
+      "svelte": "./dist/Botblecms.svelte"
     },
     "./Boulanger.svelte": {
       "types": "./dist/Boulanger.svelte.d.ts",
@@ -1886,6 +1894,10 @@
     "./Commonworkflowlanguage.svelte": {
       "types": "./dist/Commonworkflowlanguage.svelte.d.ts",
       "svelte": "./dist/Commonworkflowlanguage.svelte"
+    },
+    "./Compilerexplorer.svelte": {
+      "types": "./dist/Compilerexplorer.svelte.d.ts",
+      "svelte": "./dist/Compilerexplorer.svelte"
     },
     "./Composer.svelte": {
       "types": "./dist/Composer.svelte.d.ts",
@@ -3198,6 +3210,10 @@
     "./Frontendmentor.svelte": {
       "types": "./dist/Frontendmentor.svelte.d.ts",
       "svelte": "./dist/Frontendmentor.svelte"
+    },
+    "./Frontify.svelte": {
+      "types": "./dist/Frontify.svelte.d.ts",
+      "svelte": "./dist/Frontify.svelte"
     },
     "./Fsecure.svelte": {
       "types": "./dist/Fsecure.svelte.d.ts",
@@ -4879,6 +4895,10 @@
       "types": "./dist/Lighthouse.svelte.d.ts",
       "svelte": "./dist/Lighthouse.svelte"
     },
+    "./Lightning.svelte": {
+      "types": "./dist/Lightning.svelte.d.ts",
+      "svelte": "./dist/Lightning.svelte"
+    },
     "./Line.svelte": {
       "types": "./dist/Line.svelte.d.ts",
       "svelte": "./dist/Line.svelte"
@@ -4906,10 +4926,6 @@
     "./Linktree.svelte": {
       "types": "./dist/Linktree.svelte.d.ts",
       "svelte": "./dist/Linktree.svelte"
-    },
-    "./Linode.svelte": {
-      "types": "./dist/Linode.svelte.d.ts",
-      "svelte": "./dist/Linode.svelte"
     },
     "./Linux.svelte": {
       "types": "./dist/Linux.svelte.d.ts",
@@ -5427,6 +5443,10 @@
       "types": "./dist/Miro.svelte.d.ts",
       "svelte": "./dist/Miro.svelte"
     },
+    "./Misskey.svelte": {
+      "types": "./dist/Misskey.svelte.d.ts",
+      "svelte": "./dist/Misskey.svelte"
+    },
     "./Mitsubishi.svelte": {
       "types": "./dist/Mitsubishi.svelte.d.ts",
       "svelte": "./dist/Mitsubishi.svelte"
@@ -5507,9 +5527,9 @@
       "types": "./dist/Monkeytie.svelte.d.ts",
       "svelte": "./dist/Monkeytie.svelte"
     },
-    "./Monogames.svelte": {
-      "types": "./dist/Monogames.svelte.d.ts",
-      "svelte": "./dist/Monogames.svelte"
+    "./Monogame.svelte": {
+      "types": "./dist/Monogame.svelte.d.ts",
+      "svelte": "./dist/Monogame.svelte"
     },
     "./Monoprix.svelte": {
       "types": "./dist/Monoprix.svelte.d.ts",
@@ -5566,6 +5586,10 @@
     "./Mtr.svelte": {
       "types": "./dist/Mtr.svelte.d.ts",
       "svelte": "./dist/Mtr.svelte"
+    },
+    "./Mubi.svelte": {
+      "types": "./dist/Mubi.svelte.d.ts",
+      "svelte": "./dist/Mubi.svelte"
     },
     "./Mui.svelte": {
       "types": "./dist/Mui.svelte.d.ts",
@@ -6263,6 +6287,10 @@
       "types": "./dist/Patreon.svelte.d.ts",
       "svelte": "./dist/Patreon.svelte"
     },
+    "./Payloadcms.svelte": {
+      "types": "./dist/Payloadcms.svelte.d.ts",
+      "svelte": "./dist/Payloadcms.svelte"
+    },
     "./Payoneer.svelte": {
       "types": "./dist/Payoneer.svelte.d.ts",
       "svelte": "./dist/Payoneer.svelte"
@@ -6875,10 +6903,6 @@
       "types": "./dist/Pytorch.svelte.d.ts",
       "svelte": "./dist/Pytorch.svelte"
     },
-    "./Pytorchlightning.svelte": {
-      "types": "./dist/Pytorchlightning.svelte.d.ts",
-      "svelte": "./dist/Pytorchlightning.svelte"
-    },
     "./Pyup.svelte": {
       "types": "./dist/Pyup.svelte.d.ts",
       "svelte": "./dist/Pyup.svelte"
@@ -7286,6 +7310,10 @@
     "./Roblox.svelte": {
       "types": "./dist/Roblox.svelte.d.ts",
       "svelte": "./dist/Roblox.svelte"
+    },
+    "./Robloxstudio.svelte": {
+      "types": "./dist/Robloxstudio.svelte.d.ts",
+      "svelte": "./dist/Robloxstudio.svelte"
     },
     "./Robotframework.svelte": {
       "types": "./dist/Robotframework.svelte.d.ts",
@@ -8742,6 +8770,10 @@
     "./Traefikproxy.svelte": {
       "types": "./dist/Traefikproxy.svelte.d.ts",
       "svelte": "./dist/Traefikproxy.svelte"
+    },
+    "./Trailforks.svelte": {
+      "types": "./dist/Trailforks.svelte.d.ts",
+      "svelte": "./dist/Trailforks.svelte"
     },
     "./Trainerroad.svelte": {
       "types": "./dist/Trainerroad.svelte.d.ts",
