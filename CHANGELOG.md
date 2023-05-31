@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.2](https://github.com/shinokada/svelte-simples/compare/v0.7.1...v0.7.2) (2023-05-31)
+
+
+### Features
+
+* add component docs ([00b047e](https://github.com/shinokada/svelte-simples/commit/00b047ee7439ec4ba2e538309ae16297ab6ee7cc))
+
 ### [0.7.1](https://github.com/shinokada/svelte-simples/compare/v0.6.1...v0.7.1) (2023-05-12)
 
 ### Features
