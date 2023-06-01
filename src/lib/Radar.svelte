@@ -1,15 +1,16 @@
 <script>
   export let size = '24';
+  export let role = 'img';
   export let color = '#1877F2';
 </script>
 
 <svg
-  role="img"
   viewBox="0 0 24 24"
   width={size}
   height={size}
   fill={color}
-  class={$$props.class}
+  {...$$restProps}
+  {role}
   on:click
   on:keydown
   on:keyup
@@ -27,6 +28,7 @@
 [Go to Document](https://svelte-simples.codewithshin.com/)
 ## Props
 @prop size = '24';
+@prop role = 'img';
 @prop color = '#1877F2';
 ## Event
 - on:click

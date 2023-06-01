@@ -4,24 +4,21 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.7.4](https://github.com/shinokada/svelte-simples/compare/v0.7.3...v0.7.4) (2023-06-01)
 
-
 ### Features
 
-* add || ^4.0.0 to peerDependencies ([4516a29](https://github.com/shinokada/svelte-simples/commit/4516a29d119cadb6f55c468cc9947a2b36161588))
+- add || ^4.0.0 to peerDependencies ([4516a29](https://github.com/shinokada/svelte-simples/commit/4516a29d119cadb6f55c468cc9947a2b36161588))
 
 ### [0.7.3](https://github.com/shinokada/svelte-simples/compare/v0.7.2...v0.7.3) (2023-05-31)
 
-
 ### Bug Fixes
 
-* package update ([fa808e9](https://github.com/shinokada/svelte-simples/commit/fa808e9520d01bd716b79588a3c30ae8f32278be))
+- package update ([fa808e9](https://github.com/shinokada/svelte-simples/commit/fa808e9520d01bd716b79588a3c30ae8f32278be))
 
 ### [0.7.2](https://github.com/shinokada/svelte-simples/compare/v0.7.1...v0.7.2) (2023-05-31)
 
-
 ### Features
 
-* add component docs ([00b047e](https://github.com/shinokada/svelte-simples/commit/00b047ee7439ec4ba2e538309ae16297ab6ee7cc))
+- add component docs ([00b047e](https://github.com/shinokada/svelte-simples/commit/00b047ee7439ec4ba2e538309ae16297ab6ee7cc))
 
 ### [0.7.1](https://github.com/shinokada/svelte-simples/compare/v0.6.1...v0.7.1) (2023-05-12)
 

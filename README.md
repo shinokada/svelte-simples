@@ -72,11 +72,9 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 
 ## Props
 
-| Name  | Default |
-| ----- | ------- |
-| size  | 24      |
-| color | #1877F2 |
-| class | ''      |
+- size = '24';
+- role = 'img';
+- color = '#1877F2';
 
 ## IDE support
 
