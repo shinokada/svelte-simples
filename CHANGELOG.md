@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.7.5](https://github.com/shinokada/svelte-simples/compare/v0.7.4...v0.7.5) (2023-06-01)
 
-
 ### Features
 
-* add prop role="img" ([d9b7796](https://github.com/shinokada/svelte-simples/commit/d9b7796e533904cf8a34ab8c56b0dd04f4e4d5e7))
+- add prop role="img" ([d9b7796](https://github.com/shinokada/svelte-simples/commit/d9b7796e533904cf8a34ab8c56b0dd04f4e4d5e7))
 
 ### [0.7.4](https://github.com/shinokada/svelte-simples/compare/v0.7.3...v0.7.4) (2023-06-01)
 
