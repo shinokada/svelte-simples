@@ -1,31 +1,37 @@
-<h1 align="center">Svelte Simples</h1>
+# Svelte Simples
 
-<p align="center">
-<a href="https://svelte-simples.codewithshin.com/">Svelte-Simples</a>
-</p>
-
-<p align="center">
-<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" height="25"></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" target="_blank"><img src="https://img.shields.io/badge/PWA-enabled-brightgreen" alt="PWA Shield" height="25">
-</a>
+<div class="flex gap-2 my-8">
+<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="sponsor" height="25"></a>
 <a href="https://www.npmjs.com/package/svelte-simples" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-simples" alt="npm" height="25"></a>
 <a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25"></a>
 <a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-simples" alt="License" height="25"></a>
 <a href="https://www.npmjs.com/package/svelte-simples" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-simples.svg" alt="npm" height="25"></a>
-</p>
+</div>
 
-SVG Simple icons for Svelte. You can change the size and color to your choice.
+2230+ SVG icons for popular brands SVG Simple icons for Svelte.
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
-<p align="center">
-<img width="650" src="/static/images/simples-650-1050-optimized.png" />
-</p>
+
+## Repo
+
+[GitHub Repo](https://github.com/shinokada/svelte-simples)
+
+## Original source
+
+[simple-icons/simple-icons GitHub Repo](https://github.com/simple-icons/simple-icons)
+
+## License
+
+[Svelte-Simples License](https://github.com/shinokada/svelte-simples/blob/main/LICENSE)
+
+[simple-icons/simple-icons LICENSE](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md)
+
 
 ## Installation
 
 ```sh
-npm i -D svelte-simples
+pnpm i -D svelte-simples
 ```
 
 ## Usage
@@ -52,8 +58,6 @@ If you need only a few icons from this library in your Svelte app, import them d
 
 If you are a TypeScript user, install **typescript version 5.0.0 or above**.
 
-As of March 2023, the `typescript@beta` version is now available:
-
 ```sh
 pnpm i -D typescript@beta
 ```
@@ -74,7 +78,7 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 
 - size = '24';
 - role = 'img';
-- color = '#1877F2';
+- color = 'currentColor';
 
 ## IDE support
 
@@ -88,6 +92,12 @@ Use the `size` prop to change the icon size.
 <Facebook size="40" />
 ```
 
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
+
+```html
+<Facebook class="shrink-0 h-20 w-20" />
+```
+
 ## Color
 
 Use the `color` prop with a HEX color code to change the icon color.
@@ -98,7 +108,7 @@ Use the `color` prop with a HEX color code to change the icon color.
 
 ## CSS framworks suport
 
-Use the class prop to change size, colors and add additional css.
+You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
 Tailwind CSS example:
 
@@ -112,6 +122,16 @@ Bootstrap examples:
 <Facebook class="position-absolute top-0 px-1" />
 ```
 
+## Dark mode with Tailwind CSS
+
+If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
+
+Let's use `dark` for the dark mode class as an example.
+
+```html
+<Facebook class="text-blue-700 dark:text-red-500" />
+```
+
 ## Unfocusable icon
 
 If you want to make an icon unfocusable, add `tabindex="-1"`.
@@ -119,6 +139,20 @@ If you want to make an icon unfocusable, add `tabindex="-1"`.
 ```html
 <Facebook tabindex="-1" />
 ```
+
+## Events
+
+All icons have the following events:
+
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
 
 ## Passing down other attributes
 
@@ -175,34 +209,6 @@ Use `import * as Icon from 'svelte-simples`.
 <Icon.Facebook class="text-blue-500" />
 ```
 
-## Icon images
-
-[Icon images](/icon-images.md)
-
-## Icon names
-
-[Icon names](/icon-names.md)
-
-## Events
-
-All icons have the following events:
-
-- on:click
-- on:keydown
-- on:keyup
-- on:focus
-- on:blur
-- on:mouseenter
-- on:mouseleave
-- on:mouseover
-- on:mouseout
-
 ## Other icons
 
-- [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
-
-## Experience lightning-fast browsing and offline access with Our PWA
-
-This website can be downloaded and installed on your device for offline access as a Progressive Web App.
-
-To install a PWA, look for the "Add to Home Screen" option in the browser's menu or settings. On most mobile devices, this option can be found by visiting the website, then selecting the "Options" or "Menu" button in the browser, and looking for the "Add to Home Screen" option. On some desktop browsers, right-click on the page and select "Install".
+[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
