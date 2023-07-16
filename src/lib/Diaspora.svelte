@@ -1,7 +1,7 @@
 <script>
   export let size = '24';
   export let role = 'img';
-  export let color = '#1877F2';
+  export let color = 'currentColor';
 </script>
 
 <svg
