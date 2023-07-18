@@ -10,7 +10,7 @@
 
 2230+ SVG icons for popular brands SVG Simple icons for Svelte.
 
-Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
+Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on [the GitHub support](https://github.com/sponsors/shinokada). Your support helps me maintain and improve this package for the benefit of the community.
 
 ## Repo
 
