@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.8](https://github.com/shinokada/svelte-simples/compare/v0.7.7...v0.7.8) (2023-07-20)
+
+
+### Bug Fixes
+
+* homepage update ([a052f2a](https://github.com/shinokada/svelte-simples/commit/a052f2ad91020bd1fe09fb219824e69b1beaf183))
+* image sizes ([3a5d46f](https://github.com/shinokada/svelte-simples/commit/3a5d46fbd956d533af59bf79b335e9ce14acf56f))
+* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([1aa5711](https://github.com/shinokada/svelte-simples/commit/1aa571100ffc7fd21201efa6896c8c6e02324b49))
+
 ### [0.7.7](https://github.com/shinokada/svelte-simples/compare/v0.7.6...v0.7.7) (2023-07-16)
 
 
