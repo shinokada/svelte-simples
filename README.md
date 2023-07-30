@@ -167,6 +167,7 @@ You can pass other attibutes as well.
 
 
 ## Import all
+**Not recommended** 
 
 Use `import {Icon, icons} from 'svelte-simples';`.
 
