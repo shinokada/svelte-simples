@@ -28,7 +28,7 @@ on:mouseenter
 on:mouseleave
 on:mouseover
 on:mouseout
-viewBox="0 0 {displayIcon.box} {displayIcon.box}"
+viewBox="0 0 24 24"
 >
   {@html displayIcon.svg}
 </svg>
