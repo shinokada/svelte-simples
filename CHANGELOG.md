@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.2](https://github.com/shinokada/svelte-simples/compare/v0.8.1...v0.8.2) (2023-07-30)
+
+
+### Bug Fixes
+
+* hard code 24 in viewBox ([c03c988](https://github.com/shinokada/svelte-simples/commit/c03c9889a34ab709ed7c676fcd65e8f26b984563))
+
 ### [0.8.1](https://github.com/shinokada/svelte-simples/compare/v0.7.8...v0.8.1) (2023-07-30)
 
 
