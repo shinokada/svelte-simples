@@ -36,47 +36,20 @@ pnpm i -D svelte-simples
 
 ```html
 <script>
-  import { Facebook } from 'svelte-simples';
+  import { Icon } from 'svelte-simples';
 </script>
 
-<Facebook />
-```
-
-## Faster compiling
-
-If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
-
-```html
-<script>
-  import Facebook from 'svelte-simples/Facebook.svelte';
-</script>
-
-<Facebook />
-```
-
-If you are a TypeScript user, install **typescript version 5.0.0 or above**.
-
-```sh
-pnpm i -D typescript@beta
-```
-
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
+<Icon name="facebook" />
 ```
 
 ## Props
 
-- size = '24';
-- role = 'img';
-- color = 'currentColor';
+- @prop name;
+- @prop width = "24";
+- @prop height = "24";
+- @prop role = 'img';
+- @prop color = 'currentColor'
+- @prop ariaLabel='icon name'
 
 ## IDE support
 
@@ -84,50 +57,59 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 
 ## Size
 
-Use the `size` prop to change the icon size.
+Use the `width` and `height` props to change the size of icons.
 
 ```html
-<Facebook size="40" />
+<Icon name="facebook" width="100" height="100" />
 ```
 
-If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
 
 ```html
-<Facebook class="shrink-0 h-20 w-20" />
+<Icon name="facebook" class="shrink-0 h-20 w-20" />
 ```
 
-## Color
+## CSS HEX Colors
 
-Use the `color` prop with a HEX color code to change the icon color.
+Use the `color` prop to change colors with HEX color code.
 
 ```html
-<Facebook color="#ff0000" />
+<Icon name="facebook" color="#c61515" />
 ```
 
-## CSS framworks suport
+## CSS frameworks suport
 
 You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
 Tailwind CSS example:
 
 ```html
-<Facebook class="h-24 w-24 text-blue-700 mr-4" />
+<Icon name="facebook" class="text-red-700 inline m-1" />
 ```
 
 Bootstrap examples:
 
 ```html
-<Facebook class="position-absolute top-0 px-1" />
+<Icon name="facebook" class="position-absolute top-0 px-1" />
 ```
 
-## Dark mode with Tailwind CSS
+## Dark mode
 
 If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<Facebook class="text-blue-700 dark:text-red-500" />
+<Icon name="facebook"  class="text-blue-700 dark:text-red-500" />
+```
+
+## aria-label
+
+All icons have aria-label. For example `facebook` has `aria-label="facebook"`.
+Use `ariaLabel` prop to modify the `aria-label` value.
+
+```html
+<Icon name="facebook" ariaLabel="red facebook" color="#c61515"/>
 ```
 
 ## Unfocusable icon
@@ -135,7 +117,7 @@ Let's use `dark` for the dark mode class as an example.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<Facebook tabindex="-1" />
+<Icon name="facebook"  tabindex="-1" />
 ```
 
 ## Events
@@ -157,54 +139,48 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<Facebook tabindex="0" />
+<Icon name="facebook"  tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<script>
-  import { Facebook } from 'svelte-simples';
-</script>
-
-<svelte:component this="{Facebook}" />
+<svelte:component this="{Icon}" name="facebook" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { Facebook } from 'svelte-simples';
+  import {Icon} from 'svelte-simples';
   import { onMount } from 'svelte';
   const props = {
+    name: 'facebook',
     size: '50',
     color: '#ff0000'
   };
   onMount(() => {
-    const icon = new Facebook({ target: document.body, props });
+    const icon = new Icon({ target: document.body, props });
   });
 </script>
 ```
 
+
 ## Import all
 
-Use `import * as Icon from 'svelte-simples`.
+Use `import {Icon, icons} from 'svelte-simples';`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-simples';
+  import {Icon, icons} from 'svelte-simples';
 </script>
 
-<Icon.Facebook />
-
-<h1>Size</h1>
-<Icon.Facebook size="30" />
-
-<h1>CSS HEX color</h1>
-<Icon.Facebook color="#c61515" size="40" />
-
-<h1>Tailwind CSS</h1>
-<Icon.Facebook class="text-blue-500" />
+{#each Object.keys(icons) as name}
+<div class="flex gap-4 items-center text-lg">
+  <Icon name={name} bind:width={size} bind:height={size} class="shrink-0"/>
+  {name}
+</div>
+{/each}
 ```
 
 ## Other icons
