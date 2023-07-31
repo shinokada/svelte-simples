@@ -35,7 +35,7 @@ viewBox="0 0 24 24"
 
 <!--
 @component
-[Go to Document](https://shinokada.github.io/svelte-simples/)
+[Go to Document](https://svelte-simples.vercel.app/)
 ## Props
 @prop name;
 @prop width = "24";
