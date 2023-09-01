@@ -6,49 +6,43 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.8.5](https://github.com/shinokada/svelte-simples/compare/v0.8.4...v0.8.5) (2023-07-31)
 
-
 ### Bug Fixes
 
-* component doc update ([a41d42b](https://github.com/shinokada/svelte-simples/commit/a41d42b2799684e23a5a29bc482da19326b4057a))
+- component doc update ([a41d42b](https://github.com/shinokada/svelte-simples/commit/a41d42b2799684e23a5a29bc482da19326b4057a))
 
 ### [0.8.4](https://github.com/shinokada/svelte-simples/compare/v0.8.3...v0.8.4) (2023-07-30)
 
-
 ### Bug Fixes
 
-* update add-exports-to-package-json ([4bc6d47](https://github.com/shinokada/svelte-simples/commit/4bc6d471fa3e47e980e568482727bcd49cb58446))
+- update add-exports-to-package-json ([4bc6d47](https://github.com/shinokada/svelte-simples/commit/4bc6d471fa3e47e980e568482727bcd49cb58446))
 
 ### [0.8.3](https://github.com/shinokada/svelte-simples/compare/v0.8.2...v0.8.3) (2023-07-30)
 
 ### [0.8.2](https://github.com/shinokada/svelte-simples/compare/v0.8.1...v0.8.2) (2023-07-30)
 
-
 ### Bug Fixes
 
-* hard code 24 in viewBox ([c03c988](https://github.com/shinokada/svelte-simples/commit/c03c9889a34ab709ed7c676fcd65e8f26b984563))
+- hard code 24 in viewBox ([c03c988](https://github.com/shinokada/svelte-simples/commit/c03c9889a34ab709ed7c676fcd65e8f26b984563))
 
 ### [0.8.1](https://github.com/shinokada/svelte-simples/compare/v0.7.8...v0.8.1) (2023-07-30)
 
-
 ### Features
 
-* use two files ([1b1158e](https://github.com/shinokada/svelte-simples/commit/1b1158e39ae768f4a18d8bad8aa0f750b2b01306))
+- use two files ([1b1158e](https://github.com/shinokada/svelte-simples/commit/1b1158e39ae768f4a18d8bad8aa0f750b2b01306))
 
 ### [0.7.8](https://github.com/shinokada/svelte-simples/compare/v0.7.7...v0.7.8) (2023-07-20)
 
-
 ### Bug Fixes
 
-* homepage update ([a052f2a](https://github.com/shinokada/svelte-simples/commit/a052f2ad91020bd1fe09fb219824e69b1beaf183))
-* image sizes ([3a5d46f](https://github.com/shinokada/svelte-simples/commit/3a5d46fbd956d533af59bf79b335e9ce14acf56f))
-* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([1aa5711](https://github.com/shinokada/svelte-simples/commit/1aa571100ffc7fd21201efa6896c8c6e02324b49))
+- homepage update ([a052f2a](https://github.com/shinokada/svelte-simples/commit/a052f2ad91020bd1fe09fb219824e69b1beaf183))
+- image sizes ([3a5d46f](https://github.com/shinokada/svelte-simples/commit/3a5d46fbd956d533af59bf79b335e9ce14acf56f))
+- update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([1aa5711](https://github.com/shinokada/svelte-simples/commit/1aa571100ffc7fd21201efa6896c8c6e02324b49))
 
 ### [0.7.7](https://github.com/shinokada/svelte-simples/compare/v0.7.6...v0.7.7) (2023-07-16)
 
-
 ### Features
 
-* layout update ([b5fce79](https://github.com/shinokada/svelte-simples/commit/b5fce79aebc7e7fd11ce30ee9a8b3e44cc13cf9b))
+- layout update ([b5fce79](https://github.com/shinokada/svelte-simples/commit/b5fce79aebc7e7fd11ce30ee9a8b3e44cc13cf9b))
 
 ### [0.7.6](https://github.com/shinokada/svelte-simples/compare/v0.7.5...v0.7.6) (2023-06-15)
 
