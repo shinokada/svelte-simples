@@ -36,10 +36,10 @@ pnpm i -D svelte-simples
 
 ```html
 <script>
-  import { Facebook } from 'svelte-simples';
+  import { Svelte } from 'svelte-simples';
 </script>
 
-<Facebook />
+<Svelte />
 ```
 
 ## Faster compiling
@@ -48,10 +48,10 @@ If you need only a few icons from this library in your Svelte app, import them d
 
 ```html
 <script>
-  import Facebook from 'svelte-simples/Facebook.svelte';
+  import Svelte from 'svelte-simples/Svelte.svelte';
 </script>
 
-<Facebook />
+<Svelte />
 ```
 
 ## Props
@@ -69,21 +69,115 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 Use the `size` prop to change the icon size.
 
 ```html
-<Facebook size="40" />
+<Svelte size="40" />
 ```
 
 If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
 
 ```html
-<Facebook class="shrink-0 h-20 w-20" />
+<Svelte class="shrink-0 h-20 w-20" />
 ```
+
+## Creating a Default Global Icon Setting in Svelte
+
+You can create a config file, `/src/lib/icon.config.json`.
+
+The `Icon` component serves as a wrapper for svelte:component, allowing you to establish a global default setting or expand the capabilities of a component.
+
+To create a default global icon setting, follow these steps:
+
+### Configuration File
+
+Start by creating a configuration file named `/src/lib/icon.config.json` with the following structure:
+
+```json
+{
+  "config1": {
+    "size": 40,
+    "color": "#FF5733"
+  },
+  "config2": {
+    "size": 50,
+    "color": "#445533"
+  }
+}
+```
+
+In this JSON file, you can define different configurations (config1 and config2 in this case) for your icons, specifying attributes like size, variation, and color.
+
+### Implementation
+
+In your Svelte page file, make use of the configurations from the JSON file:
+
+```html
+<script lang="ts">
+  type IconConfig = {
+    config1: {
+      size: number;
+      color: string;
+    };
+    config2: {
+      size: number;
+      color: string;
+    };
+  };
+  import config from '$lib/icon.config.json';
+  import { Icon, Svelte, React } from 'svelte-simples';
+
+  const iconConfig: IconConfig = config;
+  const config1 = iconConfig.config1;
+  const config2 = iconConfig.config2;
+</script>
+
+<Icon {...config1} icon="{Svelte}" />
+<Icon {...config2} icon="{React}" />
+```
+
+We import the configurations from the JSON file and assign them to config1 and config2. We then utilize the Icon component with the spread attributes `{...config1}` and `{...config2}` to apply the respective configurations to each icon.
+
+### Custom Default Icon
+
+If you wish to create a custom default icon, you can follow these steps:
+
+Create a Svelte component named `src/lib/MyIcon.svelte`:
+
+```html
+<script lang="ts">
+  import type { ComponentType } from 'svelte';
+  const config = {
+    size: 30,
+    color: '#FF5733'
+  };
+  import { Icon } from 'svelte-simples';
+  export let icon: ComponentType;
+</script>
+
+<Icon {...config} {icon} />
+```
+
+This component, `MyIcon.svelte`, accepts an `icon` prop which you can use to pass in the specific icon component you want to display. The default configuration is also applied to the icon.
+
+### Implementation in a Page
+
+To use your custom default icon in a Svelte page, do the following:
+
+```html
+<script>
+  import MyIcon from '$lib/MyIcon.svelte';
+  import { Svelte } from 'svelte-simples';
+</script>
+
+<MyIcon icon="{Svelte}" />
+```
+
+Here, we import the `MyIcon` component and the `Svelte` icon. By passing the `Svelte` icon to the `icon` prop of MyIcon, you apply the default configuration to the icon.
 
 ## Color
 
 Use the `color` prop with a HEX color code to change the icon color.
 
 ```html
-<Facebook color="#ff0000" />
+<Svelte color="#ff0000" />
 ```
 
 ## CSS framworks suport
@@ -93,13 +187,13 @@ You can apply CSS framework color and other attributes directly to the icon comp
 Tailwind CSS example:
 
 ```html
-<Facebook class="h-24 w-24 text-blue-700 mr-4" />
+<Svelte class="h-24 w-24 text-blue-700 mr-4" />
 ```
 
 Bootstrap examples:
 
 ```html
-<Facebook class="position-absolute top-0 px-1" />
+<Svelte class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode with Tailwind CSS
@@ -109,7 +203,7 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<Facebook class="text-blue-700 dark:text-red-500" />
+<Svelte class="text-blue-700 dark:text-red-500" />
 ```
 
 ## Unfocusable icon
@@ -117,7 +211,7 @@ Let's use `dark` for the dark mode class as an example.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<Facebook tabindex="-1" />
+<Svelte tabindex="-1" />
 ```
 
 ## Events
@@ -139,31 +233,31 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<Facebook tabindex="0" />
+<Svelte tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
 <script>
-  import { Facebook } from 'svelte-simples';
+  import { Svelte } from 'svelte-simples';
 </script>
 
-<svelte:component this="{Facebook}" />
+<svelte:component this="{Svelte}" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { Facebook } from 'svelte-simples';
+  import { Svelte } from 'svelte-simples';
   import { onMount } from 'svelte';
   const props = {
     size: '50',
     color: '#ff0000'
   };
   onMount(() => {
-    const icon = new Facebook({ target: document.body, props });
+    const icon = new Svelte({ target: document.body, props });
   });
 </script>
 ```
@@ -177,16 +271,16 @@ Use `import * as Icon from 'svelte-simples`.
   import * as Icon from 'svelte-simples';
 </script>
 
-<Icon.Facebook />
+<Icon.Svelte />
 
 <h1>Size</h1>
-<Icon.Facebook size="30" />
+<Icon.Svelte size="30" />
 
 <h1>CSS HEX color</h1>
-<Icon.Facebook color="#c61515" size="40" />
+<Icon.Svelte color="#c61515" size="40" />
 
 <h1>Tailwind CSS</h1>
-<Icon.Facebook class="text-blue-500" />
+<Icon.Svelte class="text-blue-500" />
 ```
 
 ## Other icons
