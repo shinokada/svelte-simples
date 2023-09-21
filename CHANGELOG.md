@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.9.2](https://github.com/shinokada/svelte-simples/compare/v0.9.1...v0.9.2) (2023-09-21)
+
+
+### Features
+
+* add context ([bf32700](https://github.com/shinokada/svelte-simples/commit/bf327001c39ca0d613ef68bc5e0550044340dfe6))
+* add sidebar menu ([19ecba9](https://github.com/shinokada/svelte-simples/commit/19ecba9bed7dcb9a14e8cb25442541dd6c2f174a))
+
 ### [0.9.1](https://github.com/shinokada/svelte-simples/compare/v0.8.6...v0.9.1) (2023-09-01)
 
 ### Features
