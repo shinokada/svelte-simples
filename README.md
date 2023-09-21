@@ -1,3 +1,4 @@
+
 # Svelte Simples
 
 <div class="flex gap-2 my-8">
@@ -56,9 +57,10 @@ If you need only a few icons from this library in your Svelte app, import them d
 
 ## Props
 
-- size = '24';
-- role = 'img';
-- color = 'currentColor';
+- size = ctx.size || '24';
+- role = ctx.role || 'img';
+- color = ctx.color || 'currentColor';
+- ariaLabel = 'file name';
 
 ## IDE support
 
@@ -78,7 +80,46 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 <Svelte class="shrink-0 h-20 w-20" />
 ```
 
-## Creating a Default Global Icon Setting in Svelte
+
+## Setting Global Icon using setContext
+
+You can establish global icon preferences in your Svelte application using `setContext`. This allows you to configure icon-related properties once and share them across multiple components. Here's how you can do it:
+
+```html
+<script>
+  import { setContext } from 'svelte';
+
+  // Define your global icon settings
+  const iconCtx = {
+    size: '100', // Icon size in pixels
+    color: '#ff4488', // Icon color in hexadecimal or CSS color na
+  };
+  setContext('iconCtx', iconCtx);
+</script>
+```
+
+The `size`, `color`, and `role` properties are optional, allowing you to fine-tune the appearance and accessibility of your icons as needed.
+
+If you set `size`, icons can be customized with different colors. For example:
+
+```html
+<script>
+  import { setContext } from 'svelte';
+  import { Svelte } from 'svelte-simples';
+  const iconCtx = {
+    size: '50'
+  };
+  setContext('iconCtx', iconCtx);
+</script>
+
+<Svelte color="#ff4488" />
+```
+
+Remember that you can set only one or two of these properties, allowing you to tailor icon settings to your specific design and accessibility requirements.
+
+Feel free to mix and match these properties as needed to create visually appealing and accessible icons in your Svelte application.
+
+## Creating a Default Icon Setting
 
 You can create a config file, `/src/lib/icon.config.json`.
 
