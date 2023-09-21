@@ -1,7 +1,9 @@
 <script>
-  export let size = '24';
-  export let role = 'img';
-  export let color = 'currentColor';
+  import { getContext } from 'svelte';
+  const ctx = getContext('iconCtx') ?? {};
+  export let size = ctx.size || '24';
+  export let role = ctx.role || 'img';
+  export let color = ctx.color || 'currentColor';
   export let ariaLabel = 'Hexlet';
 </script>
 
@@ -24,7 +26,7 @@
   on:mouseout
   xmlns="http://www.w3.org/2000/svg"
   ><title>Hexlet</title><path
-    d="M 19.774648,3.0422535 12,0 4.225352,3.0422535 12,5.7464789 Z m -3.042254,4.056338 V 13.521127 H 7.2676055 V 7.0985915 L 4.5633802,6.084507 V 24 H 7.2676055 V 16.225352 H 16.732394 V 24 H 19.43662 V 6.084507 Z"
+    d="M16.732 7.099v6.422H7.268V7.099L4.563 6.085V24h2.705v-7.775h9.464V24h2.705V6.085l-2.705 1.014Zm3.043-4.057L12 0 4.225 3.042 12 5.746l7.775-2.704Z"
   /></svg
 >
 
@@ -32,8 +34,8 @@
 @component
 [Go to docs](https://svelte-simples.vercel.app/)
 ## Props
-@prop export let size = '24';
-@prop export let role = 'img';
-@prop export let color = 'currentColor';
+@prop export let size = ctx.size || '24';
+@prop export let role = ctx.role || 'img';
+@prop export let color = ctx.color || 'currentColor';
 @prop export let ariaLabel = 'Hexlet';
 -->

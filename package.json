@@ -243,6 +243,10 @@
       "types": "./dist/Adroll.svelte.d.ts",
       "svelte": "./dist/Adroll.svelte"
     },
+    "./Adventofcode.svelte": {
+      "types": "./dist/Adventofcode.svelte.d.ts",
+      "svelte": "./dist/Adventofcode.svelte"
+    },
     "./Adyen.svelte": {
       "types": "./dist/Adyen.svelte.d.ts",
       "svelte": "./dist/Adyen.svelte"
@@ -371,6 +375,10 @@
       "types": "./dist/Akamai.svelte.d.ts",
       "svelte": "./dist/Akamai.svelte"
     },
+    "./Akaunting.svelte": {
+      "types": "./dist/Akaunting.svelte.d.ts",
+      "svelte": "./dist/Akaunting.svelte"
+    },
     "./Alacritty.svelte": {
       "types": "./dist/Alacritty.svelte.d.ts",
       "svelte": "./dist/Alacritty.svelte"
@@ -487,6 +495,10 @@
       "types": "./dist/Amazoncloudwatch.svelte.d.ts",
       "svelte": "./dist/Amazoncloudwatch.svelte"
     },
+    "./Amazondocumentdb.svelte": {
+      "types": "./dist/Amazondocumentdb.svelte.d.ts",
+      "svelte": "./dist/Amazondocumentdb.svelte"
+    },
     "./Amazondynamodb.svelte": {
       "types": "./dist/Amazondynamodb.svelte.d.ts",
       "svelte": "./dist/Amazondynamodb.svelte"
@@ -539,9 +551,17 @@
       "types": "./dist/Amazonredshift.svelte.d.ts",
       "svelte": "./dist/Amazonredshift.svelte"
     },
+    "./Amazonroute53.svelte": {
+      "types": "./dist/Amazonroute53.svelte.d.ts",
+      "svelte": "./dist/Amazonroute53.svelte"
+    },
     "./Amazons3.svelte": {
       "types": "./dist/Amazons3.svelte.d.ts",
       "svelte": "./dist/Amazons3.svelte"
+    },
+    "./Amazonsimpleemailservice.svelte": {
+      "types": "./dist/Amazonsimpleemailservice.svelte.d.ts",
+      "svelte": "./dist/Amazonsimpleemailservice.svelte"
     },
     "./Amazonsqs.svelte": {
       "types": "./dist/Amazonsqs.svelte.d.ts",
@@ -1023,6 +1043,10 @@
       "types": "./dist/Autodesk.svelte.d.ts",
       "svelte": "./dist/Autodesk.svelte"
     },
+    "./Autodeskrevit.svelte": {
+      "types": "./dist/Autodeskrevit.svelte.d.ts",
+      "svelte": "./dist/Autodeskrevit.svelte"
+    },
     "./Autohotkey.svelte": {
       "types": "./dist/Autohotkey.svelte.d.ts",
       "svelte": "./dist/Autohotkey.svelte"
@@ -1043,6 +1067,10 @@
       "types": "./dist/Avast.svelte.d.ts",
       "svelte": "./dist/Avast.svelte"
     },
+    "./Avira.svelte": {
+      "types": "./dist/Avira.svelte.d.ts",
+      "svelte": "./dist/Avira.svelte"
+    },
     "./Awesomelists.svelte": {
       "types": "./dist/Awesomelists.svelte.d.ts",
       "svelte": "./dist/Awesomelists.svelte"
@@ -1062,6 +1090,10 @@
     "./Awslambda.svelte": {
       "types": "./dist/Awslambda.svelte.d.ts",
       "svelte": "./dist/Awslambda.svelte"
+    },
+    "./Awsorganizations.svelte": {
+      "types": "./dist/Awsorganizations.svelte.d.ts",
+      "svelte": "./dist/Awsorganizations.svelte"
     },
     "./Axios.svelte": {
       "types": "./dist/Axios.svelte.d.ts",
@@ -1451,6 +1483,10 @@
       "types": "./dist/Broadcom.svelte.d.ts",
       "svelte": "./dist/Broadcom.svelte"
     },
+    "./Bsd.svelte": {
+      "types": "./dist/Bsd.svelte.d.ts",
+      "svelte": "./dist/Bsd.svelte"
+    },
     "./Bspwm.svelte": {
       "types": "./dist/Bspwm.svelte.d.ts",
       "svelte": "./dist/Bspwm.svelte"
@@ -1594,6 +1630,10 @@
     "./Cardano.svelte": {
       "types": "./dist/Cardano.svelte.d.ts",
       "svelte": "./dist/Cardano.svelte"
+    },
+    "./Carrd.svelte": {
+      "types": "./dist/Carrd.svelte.d.ts",
+      "svelte": "./dist/Carrd.svelte"
     },
     "./Carrefour.svelte": {
       "types": "./dist/Carrefour.svelte.d.ts",
@@ -2171,6 +2211,10 @@
       "types": "./dist/Cplusplus.svelte.d.ts",
       "svelte": "./dist/Cplusplus.svelte"
     },
+    "./Cplusplusbuilder.svelte": {
+      "types": "./dist/Cplusplusbuilder.svelte.d.ts",
+      "svelte": "./dist/Cplusplusbuilder.svelte"
+    },
     "./Craftcms.svelte": {
       "types": "./dist/Craftcms.svelte.d.ts",
       "svelte": "./dist/Craftcms.svelte"
@@ -2274,6 +2318,10 @@
     "./Curseforge.svelte": {
       "types": "./dist/Curseforge.svelte.d.ts",
       "svelte": "./dist/Curseforge.svelte"
+    },
+    "./Cyberdefenders.svelte": {
+      "types": "./dist/Cyberdefenders.svelte.d.ts",
+      "svelte": "./dist/Cyberdefenders.svelte"
     },
     "./Cycling74.svelte": {
       "types": "./dist/Cycling74.svelte.d.ts",
@@ -2467,6 +2515,10 @@
       "types": "./dist/Dependabot.svelte.d.ts",
       "svelte": "./dist/Dependabot.svelte"
     },
+    "./Dependencycheck.svelte": {
+      "types": "./dist/Dependencycheck.svelte.d.ts",
+      "svelte": "./dist/Dependencycheck.svelte"
+    },
     "./Derspiegel.svelte": {
       "types": "./dist/Derspiegel.svelte.d.ts",
       "svelte": "./dist/Derspiegel.svelte"
@@ -2594,6 +2646,10 @@
     "./Docsdotrs.svelte": {
       "types": "./dist/Docsdotrs.svelte.d.ts",
       "svelte": "./dist/Docsdotrs.svelte"
+    },
+    "./Docsify.svelte": {
+      "types": "./dist/Docsify.svelte.d.ts",
+      "svelte": "./dist/Docsify.svelte"
     },
     "./Docusaurus.svelte": {
       "types": "./dist/Docusaurus.svelte.d.ts",
@@ -3319,6 +3375,10 @@
       "types": "./dist/Fluentd.svelte.d.ts",
       "svelte": "./dist/Fluentd.svelte"
     },
+    "./Fluke.svelte": {
+      "types": "./dist/Fluke.svelte.d.ts",
+      "svelte": "./dist/Fluke.svelte"
+    },
     "./Flutter.svelte": {
       "types": "./dist/Flutter.svelte.d.ts",
       "svelte": "./dist/Flutter.svelte"
@@ -3771,6 +3831,10 @@
       "types": "./dist/Googlebard.svelte.d.ts",
       "svelte": "./dist/Googlebard.svelte"
     },
+    "./Googlebigquery.svelte": {
+      "types": "./dist/Googlebigquery.svelte.d.ts",
+      "svelte": "./dist/Googlebigquery.svelte"
+    },
     "./Googlecalendar.svelte": {
       "types": "./dist/Googlecalendar.svelte.d.ts",
       "svelte": "./dist/Googlecalendar.svelte"
@@ -3795,6 +3859,10 @@
       "types": "./dist/Googlecloud.svelte.d.ts",
       "svelte": "./dist/Googlecloud.svelte"
     },
+    "./Googlecloudcomposer.svelte": {
+      "types": "./dist/Googlecloudcomposer.svelte.d.ts",
+      "svelte": "./dist/Googlecloudcomposer.svelte"
+    },
     "./Googlecolab.svelte": {
       "types": "./dist/Googlecolab.svelte.d.ts",
       "svelte": "./dist/Googlecolab.svelte"
@@ -3802,6 +3870,10 @@
     "./Googlecontaineroptimizedos.svelte": {
       "types": "./dist/Googlecontaineroptimizedos.svelte.d.ts",
       "svelte": "./dist/Googlecontaineroptimizedos.svelte"
+    },
+    "./Googledatastudio.svelte": {
+      "types": "./dist/Googledatastudio.svelte.d.ts",
+      "svelte": "./dist/Googledatastudio.svelte"
     },
     "./Googledocs.svelte": {
       "types": "./dist/Googledocs.svelte.d.ts",
@@ -3818,6 +3890,10 @@
     "./Googleearth.svelte": {
       "types": "./dist/Googleearth.svelte.d.ts",
       "svelte": "./dist/Googleearth.svelte"
+    },
+    "./Googleearthengine.svelte": {
+      "types": "./dist/Googleearthengine.svelte.d.ts",
+      "svelte": "./dist/Googleearthengine.svelte"
     },
     "./Googlefit.svelte": {
       "types": "./dist/Googlefit.svelte.d.ts",
@@ -4083,9 +4159,17 @@
       "types": "./dist/Hackthebox.svelte.d.ts",
       "svelte": "./dist/Hackthebox.svelte"
     },
+    "./Hal.svelte": {
+      "types": "./dist/Hal.svelte.d.ts",
+      "svelte": "./dist/Hal.svelte"
+    },
     "./Handlebarsdotjs.svelte": {
       "types": "./dist/Handlebarsdotjs.svelte.d.ts",
       "svelte": "./dist/Handlebarsdotjs.svelte"
+    },
+    "./Handm.svelte": {
+      "types": "./dist/Handm.svelte.d.ts",
+      "svelte": "./dist/Handm.svelte"
     },
     "./Handshake.svelte": {
       "types": "./dist/Handshake.svelte.d.ts",
@@ -4371,6 +4455,10 @@
       "types": "./dist/I18next.svelte.d.ts",
       "svelte": "./dist/I18next.svelte"
     },
+    "./I3.svelte": {
+      "types": "./dist/I3.svelte.d.ts",
+      "svelte": "./dist/I3.svelte"
+    },
     "./Iata.svelte": {
       "types": "./dist/Iata.svelte.d.ts",
       "svelte": "./dist/Iata.svelte"
@@ -4499,6 +4587,10 @@
       "types": "./dist/Indeed.svelte.d.ts",
       "svelte": "./dist/Indeed.svelte"
     },
+    "./Indigo.svelte": {
+      "types": "./dist/Indigo.svelte.d.ts",
+      "svelte": "./dist/Indigo.svelte"
+    },
     "./Inertia.svelte": {
       "types": "./dist/Inertia.svelte.d.ts",
       "svelte": "./dist/Inertia.svelte"
@@ -4587,6 +4679,10 @@
       "types": "./dist/Interactjs.svelte.d.ts",
       "svelte": "./dist/Interactjs.svelte"
     },
+    "./Interbase.svelte": {
+      "types": "./dist/Interbase.svelte.d.ts",
+      "svelte": "./dist/Interbase.svelte"
+    },
     "./Intercom.svelte": {
       "types": "./dist/Intercom.svelte.d.ts",
       "svelte": "./dist/Intercom.svelte"
@@ -4598,6 +4694,10 @@
     "./Internetarchive.svelte": {
       "types": "./dist/Internetarchive.svelte.d.ts",
       "svelte": "./dist/Internetarchive.svelte"
+    },
+    "./Internetcomputer.svelte": {
+      "types": "./dist/Internetcomputer.svelte.d.ts",
+      "svelte": "./dist/Internetcomputer.svelte"
     },
     "./Internetexplorer.svelte": {
       "types": "./dist/Internetexplorer.svelte.d.ts",
@@ -4950,6 +5050,10 @@
     "./Kdenlive.svelte": {
       "types": "./dist/Kdenlive.svelte.d.ts",
       "svelte": "./dist/Kdenlive.svelte"
+    },
+    "./Kedro.svelte": {
+      "types": "./dist/Kedro.svelte.d.ts",
+      "svelte": "./dist/Kedro.svelte"
     },
     "./Keepachangelog.svelte": {
       "types": "./dist/Keepachangelog.svelte.d.ts",
@@ -5487,6 +5591,10 @@
       "types": "./dist/Lunacy.svelte.d.ts",
       "svelte": "./dist/Lunacy.svelte"
     },
+    "./Lutris.svelte": {
+      "types": "./dist/Lutris.svelte.d.ts",
+      "svelte": "./dist/Lutris.svelte"
+    },
     "./Lydia.svelte": {
       "types": "./dist/Lydia.svelte.d.ts",
       "svelte": "./dist/Lydia.svelte"
@@ -5567,6 +5675,10 @@
       "types": "./dist/Manjaro.svelte.d.ts",
       "svelte": "./dist/Manjaro.svelte"
     },
+    "./Mantine.svelte": {
+      "types": "./dist/Mantine.svelte.d.ts",
+      "svelte": "./dist/Mantine.svelte"
+    },
     "./Mapbox.svelte": {
       "types": "./dist/Mapbox.svelte.d.ts",
       "svelte": "./dist/Mapbox.svelte"
@@ -5626,6 +5738,10 @@
     "./Materialdesignicons.svelte": {
       "types": "./dist/Materialdesignicons.svelte.d.ts",
       "svelte": "./dist/Materialdesignicons.svelte"
+    },
+    "./Matillion.svelte": {
+      "types": "./dist/Matillion.svelte.d.ts",
+      "svelte": "./dist/Matillion.svelte"
     },
     "./Matomo.svelte": {
       "types": "./dist/Matomo.svelte.d.ts",
@@ -5722,6 +5838,10 @@
     "./Mega.svelte": {
       "types": "./dist/Mega.svelte.d.ts",
       "svelte": "./dist/Mega.svelte"
+    },
+    "./Meilisearch.svelte": {
+      "types": "./dist/Meilisearch.svelte.d.ts",
+      "svelte": "./dist/Meilisearch.svelte"
     },
     "./Mendeley.svelte": {
       "types": "./dist/Mendeley.svelte.d.ts",
@@ -5951,6 +6071,10 @@
       "types": "./dist/Mixcloud.svelte.d.ts",
       "svelte": "./dist/Mixcloud.svelte"
     },
+    "./Mixpanel.svelte": {
+      "types": "./dist/Mixpanel.svelte.d.ts",
+      "svelte": "./dist/Mixpanel.svelte"
+    },
     "./Mlb.svelte": {
       "types": "./dist/Mlb.svelte.d.ts",
       "svelte": "./dist/Mlb.svelte"
@@ -5970,6 +6094,10 @@
     "./Mocha.svelte": {
       "types": "./dist/Mocha.svelte.d.ts",
       "svelte": "./dist/Mocha.svelte"
+    },
+    "./Mockserviceworker.svelte": {
+      "types": "./dist/Mockserviceworker.svelte.d.ts",
+      "svelte": "./dist/Mockserviceworker.svelte"
     },
     "./Modin.svelte": {
       "types": "./dist/Modin.svelte.d.ts",
@@ -6819,6 +6947,10 @@
       "types": "./dist/Paloaltosoftware.svelte.d.ts",
       "svelte": "./dist/Paloaltosoftware.svelte"
     },
+    "./Panasonic.svelte": {
+      "types": "./dist/Panasonic.svelte.d.ts",
+      "svelte": "./dist/Panasonic.svelte"
+    },
     "./Pandas.svelte": {
       "types": "./dist/Pandas.svelte.d.ts",
       "svelte": "./dist/Pandas.svelte"
@@ -6886,6 +7018,10 @@
     "./Pearson.svelte": {
       "types": "./dist/Pearson.svelte.d.ts",
       "svelte": "./dist/Pearson.svelte"
+    },
+    "./Peerlist.svelte": {
+      "types": "./dist/Peerlist.svelte.d.ts",
+      "svelte": "./dist/Peerlist.svelte"
     },
     "./Peertube.svelte": {
       "types": "./dist/Peertube.svelte.d.ts",
@@ -7671,6 +7807,10 @@
       "types": "./dist/Radixui.svelte.d.ts",
       "svelte": "./dist/Radixui.svelte"
     },
+    "./Radstudio.svelte": {
+      "types": "./dist/Radstudio.svelte.d.ts",
+      "svelte": "./dist/Radstudio.svelte"
+    },
     "./Railway.svelte": {
       "types": "./dist/Railway.svelte.d.ts",
       "svelte": "./dist/Railway.svelte"
@@ -7971,6 +8111,10 @@
       "types": "./dist/Roamresearch.svelte.d.ts",
       "svelte": "./dist/Roamresearch.svelte"
     },
+    "./Robinhood.svelte": {
+      "types": "./dist/Robinhood.svelte.d.ts",
+      "svelte": "./dist/Robinhood.svelte"
+    },
     "./Roblox.svelte": {
       "types": "./dist/Roblox.svelte.d.ts",
       "svelte": "./dist/Roblox.svelte"
@@ -8010,6 +8154,10 @@
     "./Rome.svelte": {
       "types": "./dist/Rome.svelte.d.ts",
       "svelte": "./dist/Rome.svelte"
+    },
+    "./Rootme.svelte": {
+      "types": "./dist/Rootme.svelte.d.ts",
+      "svelte": "./dist/Rootme.svelte"
     },
     "./Roots.svelte": {
       "types": "./dist/Roots.svelte.d.ts",
@@ -8143,6 +8291,10 @@
       "types": "./dist/Sailfishos.svelte.d.ts",
       "svelte": "./dist/Sailfishos.svelte"
     },
+    "./Sailsdotjs.svelte": {
+      "types": "./dist/Sailsdotjs.svelte.d.ts",
+      "svelte": "./dist/Sailsdotjs.svelte"
+    },
     "./Salesforce.svelte": {
       "types": "./dist/Salesforce.svelte.d.ts",
       "svelte": "./dist/Salesforce.svelte"
@@ -8270,6 +8422,10 @@
     "./Seagate.svelte": {
       "types": "./dist/Seagate.svelte.d.ts",
       "svelte": "./dist/Seagate.svelte"
+    },
+    "./Searxng.svelte": {
+      "types": "./dist/Searxng.svelte.d.ts",
+      "svelte": "./dist/Searxng.svelte"
     },
     "./Seat.svelte": {
       "types": "./dist/Seat.svelte.d.ts",
@@ -8446,6 +8602,10 @@
     "./Siemens.svelte": {
       "types": "./dist/Siemens.svelte.d.ts",
       "svelte": "./dist/Siemens.svelte"
+    },
+    "./Sifive.svelte": {
+      "types": "./dist/Sifive.svelte.d.ts",
+      "svelte": "./dist/Sifive.svelte"
     },
     "./Signal.svelte": {
       "types": "./dist/Signal.svelte.d.ts",
@@ -8659,6 +8819,10 @@
       "types": "./dist/Sonarsource.svelte.d.ts",
       "svelte": "./dist/Sonarsource.svelte"
     },
+    "./Sonatype.svelte": {
+      "types": "./dist/Sonatype.svelte.d.ts",
+      "svelte": "./dist/Sonatype.svelte"
+    },
     "./Songkick.svelte": {
       "types": "./dist/Songkick.svelte.d.ts",
       "svelte": "./dist/Songkick.svelte"
@@ -8758,6 +8922,10 @@
     "./Speedypage.svelte": {
       "types": "./dist/Speedypage.svelte.d.ts",
       "svelte": "./dist/Speedypage.svelte"
+    },
+    "./Sphinx.svelte": {
+      "types": "./dist/Sphinx.svelte.d.ts",
+      "svelte": "./dist/Sphinx.svelte"
     },
     "./Spigotmc.svelte": {
       "types": "./dist/Spigotmc.svelte.d.ts",
@@ -9138,6 +9306,10 @@
     "./Swiper.svelte": {
       "types": "./dist/Swiper.svelte.d.ts",
       "svelte": "./dist/Swiper.svelte"
+    },
+    "./Swr.svelte": {
+      "types": "./dist/Swr.svelte.d.ts",
+      "svelte": "./dist/Swr.svelte"
     },
     "./Symantec.svelte": {
       "types": "./dist/Symantec.svelte.d.ts",
@@ -9547,6 +9719,10 @@
       "types": "./dist/Toshiba.svelte.d.ts",
       "svelte": "./dist/Toshiba.svelte"
     },
+    "./Tourbox.svelte": {
+      "types": "./dist/Tourbox.svelte.d.ts",
+      "svelte": "./dist/Tourbox.svelte"
+    },
     "./Toyota.svelte": {
       "types": "./dist/Toyota.svelte.d.ts",
       "svelte": "./dist/Toyota.svelte"
@@ -9759,6 +9935,10 @@
       "types": "./dist/Ubuntu.svelte.d.ts",
       "svelte": "./dist/Ubuntu.svelte"
     },
+    "./Ubuntumate.svelte": {
+      "types": "./dist/Ubuntumate.svelte.d.ts",
+      "svelte": "./dist/Ubuntumate.svelte"
+    },
     "./Udacity.svelte": {
       "types": "./dist/Udacity.svelte.d.ts",
       "svelte": "./dist/Udacity.svelte"
@@ -9778,6 +9958,10 @@
     "./Ulule.svelte": {
       "types": "./dist/Ulule.svelte.d.ts",
       "svelte": "./dist/Ulule.svelte"
+    },
+    "./Umami.svelte": {
+      "types": "./dist/Umami.svelte.d.ts",
+      "svelte": "./dist/Umami.svelte"
     },
     "./Umbraco.svelte": {
       "types": "./dist/Umbraco.svelte.d.ts",
@@ -9814,6 +9998,10 @@
     "./Unitedairlines.svelte": {
       "types": "./dist/Unitedairlines.svelte.d.ts",
       "svelte": "./dist/Unitedairlines.svelte"
+    },
+    "./Unitednations.svelte": {
+      "types": "./dist/Unitednations.svelte.d.ts",
+      "svelte": "./dist/Unitednations.svelte"
     },
     "./Unity.svelte": {
       "types": "./dist/Unity.svelte.d.ts",
@@ -9887,6 +10075,10 @@
       "types": "./dist/Usps.svelte.d.ts",
       "svelte": "./dist/Usps.svelte"
     },
+    "./Utorrent.svelte": {
+      "types": "./dist/Utorrent.svelte.d.ts",
+      "svelte": "./dist/Utorrent.svelte"
+    },
     "./V.svelte": {
       "types": "./dist/V.svelte.d.ts",
       "svelte": "./dist/V.svelte"
@@ -9926,6 +10118,10 @@
     "./Vault.svelte": {
       "types": "./dist/Vault.svelte.d.ts",
       "svelte": "./dist/Vault.svelte"
+    },
+    "./Vaultwarden.svelte": {
+      "types": "./dist/Vaultwarden.svelte.d.ts",
+      "svelte": "./dist/Vaultwarden.svelte"
     },
     "./Vauxhall.svelte": {
       "types": "./dist/Vauxhall.svelte.d.ts",
@@ -9994,6 +10190,10 @@
     "./Viadeo.svelte": {
       "types": "./dist/Viadeo.svelte.d.ts",
       "svelte": "./dist/Viadeo.svelte"
+    },
+    "./Viaplay.svelte": {
+      "types": "./dist/Viaplay.svelte.d.ts",
+      "svelte": "./dist/Viaplay.svelte"
     },
     "./Viber.svelte": {
       "types": "./dist/Viber.svelte.d.ts",
