@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.9.1](https://github.com/shinokada/svelte-simples/compare/v0.8.6...v0.9.1) (2023-09-01)
 
-
 ### Features
 
-* smaller compiled size and Icon component ([eeebed0](https://github.com/shinokada/svelte-simples/commit/eeebed058855710d0167694013f0e310e348697b))
+- smaller compiled size and Icon component ([eeebed0](https://github.com/shinokada/svelte-simples/commit/eeebed058855710d0167694013f0e310e348697b))
 
 ### [0.8.6](https://github.com/shinokada/svelte-simples/compare/v0.8.5...v0.8.6) (2023-08-03)
 
