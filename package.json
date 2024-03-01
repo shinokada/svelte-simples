@@ -10995,6 +10995,7 @@
     "./Zyte.svelte": {
       "types": "./dist/Zyte.svelte.d.ts",
       "svelte": "./dist/Zyte.svelte"
-    }
+    },
+    "./package.json": "./package.json"
   }
 }
