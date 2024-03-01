@@ -20,16 +20,6 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [GitHub Repo](https://github.com/shinokada/svelte-simples)
 
-## Original source
-
-[simple-icons/simple-icons GitHub Repo](https://github.com/simple-icons/simple-icons)
-
-## License
-
-[Svelte-Simples License](https://github.com/shinokada/svelte-simples/blob/main/LICENSE)
-
-[simple-icons/simple-icons LICENSE](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md)
-
 ## Installation
 
 ```sh
@@ -326,6 +316,16 @@ Use `import * as Icon from 'svelte-simples`.
 <Icon.Svelte class="text-blue-500" />
 ```
 
+## Original source
+
+[simple-icons/simple-icons GitHub Repo](https://github.com/simple-icons/simple-icons)
+
+## License
+
+[Svelte-Simples License](https://github.com/shinokada/svelte-simples/blob/main/LICENSE)
+
+[simple-icons/simple-icons LICENSE](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md)
+
 ## Other icons
 
-[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+[Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
