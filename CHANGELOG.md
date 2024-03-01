@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/shinokada/svelte-simples/compare/v1.0.1...v1.0.2) (2024-03-01)
+
+
+### Bug Fixes
+
+* layout update add class to NavHamburger ([d13e335](https://github.com/shinokada/svelte-simples/commit/d13e3350a0ec042621c9964e4122938bf6bc2ac9))
+* pnpm-lock ([5356db0](https://github.com/shinokada/svelte-simples/commit/5356db0a247f4a9d8d7efc639382e6f6a7954923))
+* remove active from NavLi and add activeUrl to NavUl ([60495ee](https://github.com/shinokada/svelte-simples/commit/60495ee3762f4a432abfd263e242a7e38cefacfe))
+
 ### [1.0.1](https://github.com/shinokada/svelte-simples/compare/v0.9.2...v1.0.1) (2024-01-27)
 
 ### [0.9.2](https://github.com/shinokada/svelte-simples/compare/v0.9.1...v0.9.2) (2023-09-21)
